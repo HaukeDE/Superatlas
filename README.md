@@ -14,4 +14,4 @@ This respository contains:
 * The glyphs, which are based on [Google Fonts](https://fonts.google.com/)
 * The [Mapbox](https://www.mapbox.com/)/[Maplibre](https://maplibre.org/) JSON style file, which is based off and significantly extended from the basemap.de [color map](https://sgx.geodatenzentrum.de/gdz_basemapde_vektor/styles/bm_web_col.json) and [relief](https://sgx.geodatenzentrum.de/gdz_basemapde_vektor/styles/bm_web_top.json) style files, published by [BKG](https://www.bkg.bund.de) under [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/)
 
-For usage guidance nd detailed explanations, please read my [blog posts](https://projects.webvoss.de)
+For usage guidance nd detailed explanations, please read my [blog posts]([https://projects.webvoss.de](https://projects.webvoss.de/2024/08/03/next-generation-perfect-offline-hiking-maps-superatlas-goes-vector-part-i-introduction/))
