@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 1,
   "name": "Superatlas",
   "metadata": {
     "basemapde:style-version": 3.1,
@@ -15522,7 +15522,7 @@
       "type": "fill",
       "source": "OSM-tiles",
       "source-layer": "OSMfeatures",
-      "minzoom": 10,
+      "minzoom": 13,
       "filter": ["all", ["==", "class", "quarry"]],
       "layout": {"visibility": "visible"},
       "paint": {"fill-pattern": "quarry_area", "fill-opacity": 0.7}
@@ -15615,7 +15615,7 @@
       "type": "fill",
       "source": "OSM-tiles",
       "source-layer": "OSMfeatures",
-      "minzoom": 10,
+      "minzoom": 13,
       "filter": ["all", ["==", "class", "moor"]],
       "layout": {"visibility": "visible"},
       "paint": {"fill-opacity": 1, "fill-pattern": "moor_area"}
@@ -15625,7 +15625,7 @@
       "type": "fill",
       "source": "OSM-tiles",
       "source-layer": "OSMfeatures",
-      "minzoom": 10,
+      "minzoom": 13,
       "filter": ["all", ["==", "class", "heath"]],
       "layout": {"visibility": "visible"},
       "paint": {"fill-opacity": 1, "fill-pattern": "heath_area"}
@@ -15635,7 +15635,7 @@
       "type": "fill",
       "source": "OSM-tiles",
       "source-layer": "OSMfeatures",
-      "minzoom": 10,
+      "minzoom": 13,
       "filter": ["all", ["==", "subclass", "orchard"]],
       "layout": {"visibility": "visible"},
       "paint": {"fill-opacity": 1, "fill-pattern": "orchard_area"}
@@ -15645,7 +15645,7 @@
       "type": "fill",
       "source": "OSM-tiles",
       "source-layer": "OSMfeatures",
-      "minzoom": 10,
+      "minzoom": 13,
       "filter": ["all", ["==", "class", "vineyard"]],
       "layout": {"visibility": "visible"},
       "paint": {"fill-opacity": 1, "fill-pattern": "vineyard_area"}
@@ -15909,7 +15909,7 @@
       "type": "symbol",
       "source": "OSM-tiles",
       "source-layer": "OSMPOI",
-      "minzoom": 10,
+      "minzoom": 12,
       "filter": ["all", ["==", "class", "place_of_worship"]],
       "layout": {
         "visibility": "visible",
@@ -15939,7 +15939,7 @@
       "type": "circle",
       "source": "OSM-tiles",
       "source-layer": "OSMPOI",
-      "minzoom": 10,
+      "minzoom": 13,
       "filter": ["all", ["==", "class", "water_well"]],
       "paint": {
         "circle-color": "rgba(32, 67, 255, 1)",
@@ -16119,7 +16119,7 @@
       "type": "symbol",
       "source": "OSM-tiles",
       "source-layer": "OSMPOI",
-      "minzoom": 11,
+      "minzoom": 13,
       "filter": [
         "all",
         [
@@ -16413,7 +16413,7 @@
       "source": "OSM-tiles",
       "source-layer": "OSMPOI",
       "minzoom": 10,
-      "maxzoom": 10.9999,
+      "maxzoom": 11.9999,
       "filter": [
         "all",
         [
@@ -16447,7 +16447,7 @@
       "type": "symbol",
       "source": "OSM-tiles",
       "source-layer": "OSMPOI",
-      "minzoom": 11,
+      "minzoom": 12,
       "filter": [
         "all",
         [
