@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 8,
   "name": "Superatlas",
   "metadata": {
     "basemapde:style-version": 3.1,
@@ -13,7 +13,7 @@
     "smarttiles_de": {
       "type": "vector",
       "tiles": [
-        "http://localhost:8998/basemap.mbtiles/{z}/{x}/{y}.pbf"
+        "http://localhost:1886/mbtiles/basemap.mbtiles/{z}/{x}/{y}"
       ],
       "attribution": "&copy; 2023 basemap.de / BKG | Datenquellen: © GeoBasis-DE",
       "minzoom": 0,
@@ -22,7 +22,7 @@
     "OSM-tiles": {
       "type": "vector",
       "tiles": [
-        "http://localhost:8998/superatlas.mbtiles/{z}/{x}/{y}.pbf"
+        "http://localhost:1886/mbtiles/superatlas.mbtiles/{z}/{x}/{y}"
       ],
       "attribution": "&copy; OpenStreetMap",
       "minzoom": 9,
@@ -31,7 +31,7 @@
     "smarttilesHL_de": {
       "type": "vector",
       "tiles": [
-        "http://localhost:8998/basemap_contour.mbtiles/{z}/{x}/{y}.pbf"
+        "http://localhost:1886/mbtiles/basemap_contour.mbtiles/{z}/{x}/{y}"
       ],
       "attribution": "&copy; 2023 basemap.de / BKG | Datenquellen: © GeoBasis-DE",
       "minzoom": 0,
