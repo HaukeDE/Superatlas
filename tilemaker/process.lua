@@ -25,7 +25,7 @@ node_keys = {"building", "historic", "amenity", "megalith_type", "waterway", "em
 
 way_keys = {"access", "abandoned:highway", "disused:highway", "bridge", "waterway", "highway", "embankment", "handrail", "barrier", "building", "amenity", "historic", "megalith_type", "leisure", "ford", "man_made", "natural", "landuse", "landcover", "shelter_type", "sport", "accomodation", "information", "tourism", "viewpoint", "boundary"} 
 
-ValidAmenities = {"bench", "bbq", "firepit", "drinking_water", "water_point", "fountain", "ranger_station", "shelter", "table", "place_of_worship", "monastery", "parking", "toilets", "grave_yard", "restaurant", "pub", "biergarten", "cafe", "ice_cream", "public_bath"}
+ValidAmenities = {"bench", "bbq", "firepit", "drinking_water", "water_point", "fountain", "ranger_station", "shelter", "table", "place_of_worship", "lounger", "monastery", "parking", "toilets", "grave_yard", "restaurant", "fast_food", "pub", "biergarten", "cafe", "ice_cream", "public_bath"}
  
 
 ValidHistoric = {"mine", "archaeological_site", "battlefield", "boundary_stone", "city_gate", "fort", "milestone", "memorial", "monument", "ogham_stone", "ruins", "rune_stone", "tomb", "wayside_cross", "wayside_shrine", "tree_shrine", "stone", "monastery", "castle", "gallows", "pillory", "aqueduct", "stone", "church", "cathedral", "chapel", "wayside_chapel", "mosque", "synagogue", "temple", "shrine", "cross", "high_cross", "round_tower", "stećak"}
@@ -43,7 +43,7 @@ else
 	ValidLanduse = {"quarry", "surface_mining", "vineyard", "cemetery"}
 end
 
-ValidBuilding = {"wayside_shrine", "church", "cathedral", "chapel", "wayside_chapel", "mosque", "synagogue", "temple", "castle", "shrine"}
+ValidBuilding = {"wayside_shrine", "church", "cathedral", "chapel", "wayside_chapel", "mosque", "synagogue", "temple", "castle", "shrine", "ruins"}
 ValidTourism = {"viewpoint", "alpine_hut", "wilderness_hut", "artwork", "information", "picnic_site", "zoo"} -- "attraction", is handled per object
 ValidBarrier = {"handrail", "railing", "split_rail", "wood", "roundpole", "pole", "metal", "ditch"}
 
@@ -289,11 +289,16 @@ local function OSMtranslator(ObjectCategory, ObjectData)
 			else
 				FinalClass = "wildlife_hide"
 			end
-		elseif FinalClass == "bbq" then
+		elseif FinalClass == "bbq" or FinalClass == "firepit" then
+-- Noch Symbol machen für grillhütte - und: shelter mit fireplace yes dzu
+--			if Find("covered") == "yes" then
+--				FinalClass == 
 			FinalClass = "firepit"
-		elseif FinalClass == "bench" then
+		elseif FinalClass == "bench" or FinalClass == "lounger" then
 			if Find("tourism") == "picnic_site" then
 				FinalClass = "Duplicate"
+			else
+				FinalClass = "bench"
 			end
 		elseif FinalClass == "parking" then
 			if contains(InvalidParkings, Find("parking")) or Holds("parking:left") or Holds("parking:right") or Holds("parking:both") or contains({"private", "no"}, Find("access")) then
@@ -316,7 +321,7 @@ local function OSMtranslator(ObjectCategory, ObjectData)
 			end
 		elseif FinalClass == "ruins" then
 			-- avoid duplicates
-			if contains(ValidBuilding, Find("building")) or contains(ValidManMade, Find("man_made")) or contains(ValidHistoric, Find("historic")) then
+			if contains(ValidBuilding, Find("building")) or contains(ValidManMade, Find("man_made")) then
 				FinalClass = "Duplicate"
 			end
 		elseif FinalClass == "memorial" then
@@ -400,6 +405,8 @@ local function OSMtranslator(ObjectCategory, ObjectData)
 			FinalClass = "gallows"
 		elseif FinalClass == "biergarten" then
 			FinalClass = "pub"
+		elseif FinalClass == "fast_food" then
+			FinalClass = "restaurant"   -- debatable :-)
 		elseif FinalClass == "ditch" then
 			FinalClass = "gully"
 		elseif FinalClass == "nature_reserve" or FinalClass == "national_park" or FinalClass == "protected_area" then
