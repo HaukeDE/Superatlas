@@ -15,7 +15,7 @@
       "tiles": [
         "http://localhost:8998/basemap.mbtiles/{z}/{x}/{y}.pbf"
       ],
-      "attribution": "&copy; 2023 basemap.de / BKG | Datenquellen: © GeoBasis-DE",
+      "attribution": "&copy; 2025 basemap.de / BKG | Datenquellen: &copy; GeoBasis-DE",
       "minzoom": 0,
       "maxzoom": 14
     },
@@ -33,8 +33,8 @@
       "tiles": [
         "http://localhost:8998/basemap_contour.mbtiles/{z}/{x}/{y}.pbf"
       ],
-      "attribution": "&copy; 2023 basemap.de / BKG | Datenquellen: © GeoBasis-DE",
-      "minzoom": 0,
+      "attribution": "&copy; 2025 basemap.de / BKG | Datenquellen: &copy; GeoBasis-DE",
+      "minzoom": 8,
       "maxzoom": 13
     }
   },

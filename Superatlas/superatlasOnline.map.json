@@ -15,7 +15,7 @@
       "tiles": [
 	    "https://sgx.geodatenzentrum.de/gdz_basemapde_vektor/tiles/v2/bm_web_de_3857/{z}/{x}/{y}.pbf"
       ],
-      "attribution": "&copy; 2023 basemap.de / BKG | Datenquellen: © GeoBasis-DE",
+      "attribution": "&copy; 2025 basemap.de / BKG | Datenquellen: &copy; GeoBasis-DE",
       "minzoom": 0,
       "maxzoom": 14
     },
@@ -33,9 +33,9 @@
       "tiles": [
 		"https://sgx.geodatenzentrum.de/gdz_basemapde_vektor/tiles/v2/bm_web_hl_de_3857/{z}/{x}/{y}.pbf"
       ],
-      "attribution": "&copy; 2023 basemap.de / BKG | Datenquellen: © GeoBasis-DE",
-      "minzoom": 0,
-      "maxzoom": 13
+      "attribution": "&copy; 2025 basemap.de / BKG | Datenquellen: &copy; GeoBasis-DE",
+      "minzoom": 8,
+      "maxzoom": 15
     }
   },
   "sprite": "http://localhost:8998/sprites/superatlas",
