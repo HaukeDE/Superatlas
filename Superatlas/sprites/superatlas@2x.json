@@ -1,96 +1,96 @@
 {
   "Bildung_Forschung": {
-    "x": 84,
-    "y": 48,
-    "width": 44,
-    "height": 44,
+    "x": 48,
+    "y": 160,
+    "width": 36,
+    "height": 36,
     "pixelRatio": 2,
     "visible": true
   },
   "Feuerwehr": {
-    "x": 84,
-    "y": 92,
-    "width": 44,
-    "height": 44,
+    "x": 48,
+    "y": 196,
+    "width": 36,
+    "height": 36,
     "pixelRatio": 2,
     "visible": true
   },
   "Gotteshaus": {
-    "x": 176,
-    "y": 132,
+    "x": 84,
+    "y": 76,
     "width": 40,
-    "height": 72,
+    "height": 68,
     "pixelRatio": 2,
     "visible": true
   },
   "Kapelle": {
     "x": 296,
-    "y": 272,
-    "width": 32,
-    "height": 32,
+    "y": 276,
+    "width": 24,
+    "height": 56,
     "pixelRatio": 2,
     "visible": true
   },
   "Kirche": {
-    "x": 52,
-    "y": 160,
-    "width": 32,
-    "height": 72,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Krankenhaus": {
-    "x": 84,
-    "y": 136,
-    "width": 44,
-    "height": 44,
+    "x": 268,
+    "y": 0,
+    "width": 28,
+    "height": 68,
     "pixelRatio": 2,
     "visible": true
   },
   "Museum": {
-    "x": 84,
-    "y": 180,
-    "width": 44,
+    "x": 48,
+    "y": 232,
+    "width": 36,
+    "height": 36,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Krankenhaus": {
+    "x": 48,
+    "y": 268,
+    "width": 36,
+    "height": 36,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Parkhaus": {
+    "x": 128,
+    "y": 0,
+    "width": 36,
     "height": 44,
     "pixelRatio": 2,
     "visible": true
   },
   "Polizei": {
-    "x": 84,
-    "y": 224,
-    "width": 44,
-    "height": 44,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Parkhaus": {
-    "x": 84,
-    "y": 268,
-    "width": 44,
-    "height": 52,
+    "x": 128,
+    "y": 44,
+    "width": 36,
+    "height": 36,
     "pixelRatio": 2,
     "visible": true
   },
   "Schloss_Burg": {
-    "x": 176,
-    "y": 204,
-    "width": 40,
-    "height": 72,
+    "x": 128,
+    "y": 80,
+    "width": 36,
+    "height": 68,
     "pixelRatio": 2,
     "visible": true
   },
   "Schwimmbad": {
-    "x": 84,
-    "y": 320,
-    "width": 44,
-    "height": 44,
+    "x": 128,
+    "y": 148,
+    "width": 36,
+    "height": 36,
     "pixelRatio": 2,
     "visible": true
   },
   "Windmuehle": {
-    "x": 220,
-    "y": 248,
-    "width": 36,
+    "x": 236,
+    "y": 0,
+    "width": 32,
     "height": 80,
     "pixelRatio": 2,
     "visible": true
@@ -120,1291 +120,1214 @@
     "visible": true
   },
   "Turm": {
-    "x": 52,
-    "y": 232,
-    "width": 32,
+    "x": 268,
+    "y": 68,
+    "width": 28,
     "height": 64,
     "pixelRatio": 2,
     "visible": true
   },
   "Kontrollturm": {
-    "x": 52,
-    "y": 296,
-    "width": 32,
+    "x": 268,
+    "y": 132,
+    "width": 28,
     "height": 64,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Kran": {
-    "x": 0,
-    "y": 160,
-    "width": 52,
-    "height": 76,
     "pixelRatio": 2,
     "visible": true
   },
   "Kraftwerk_Solar": {
     "x": 0,
-    "y": 236,
-    "width": 52,
-    "height": 52,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Kuehlturm": {
-    "x": 332,
-    "y": 0,
-    "width": 32,
-    "height": 72,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Radioteleskop": {
-    "x": 176,
-    "y": 276,
-    "width": 40,
-    "height": 80,
+    "y": 208,
+    "width": 44,
+    "height": 40,
     "pixelRatio": 2,
     "visible": true
   },
   "Kirchturm": {
-    "x": 332,
-    "y": 72,
-    "width": 32,
-    "height": 32,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Brunnen": {
-    "x": 332,
-    "y": 104,
-    "width": 32,
-    "height": 32,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Wasserturm": {
-    "x": 332,
-    "y": 136,
-    "width": 32,
-    "height": 64,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Sprungschanze": {
-    "x": 132,
-    "y": 0,
-    "width": 44,
-    "height": 44,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Anleger": {
-    "x": 0,
-    "y": 288,
-    "width": 52,
-    "height": 44,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Antenne": {
-    "x": 260,
-    "y": 0,
-    "width": 36,
-    "height": 76,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Bake": {
-    "x": 364,
-    "y": 0,
+    "x": 268,
+    "y": 196,
     "width": 28,
-    "height": 64,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Freileitungsmast": {
-    "x": 296,
-    "y": 328,
-    "width": 16,
-    "height": 16,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Funkturm": {
-    "x": 220,
-    "y": 0,
-    "width": 40,
-    "height": 76,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Funkmast": {
-    "x": 260,
-    "y": 76,
-    "width": 36,
-    "height": 80,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Kellereingang": {
-    "x": 332,
-    "y": 200,
-    "width": 32,
-    "height": 60,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Kilometerstein": {
-    "x": 364,
-    "y": 64,
-    "width": 28,
-    "height": 36,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Leuchtfeuer": {
-    "x": 332,
-    "y": 260,
-    "width": 32,
-    "height": 84,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Leuchtturm": {
-    "x": 220,
-    "y": 76,
-    "width": 40,
-    "height": 84,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Schachtoeffnung": {
-    "x": 260,
-    "y": 156,
-    "width": 36,
     "height": 28,
     "pixelRatio": 2,
     "visible": true
   },
-  "Wasserfall": {
-    "x": 132,
-    "y": 44,
+  "Kran": {
+    "x": 0,
+    "y": 248,
     "width": 44,
-    "height": 44,
+    "height": 64,
     "pixelRatio": 2,
     "visible": true
   },
-  "Pegel": {
-    "x": 260,
+  "Vorratsbehaelter": {
+    "x": 268,
+    "y": 224,
+    "width": 28,
+    "height": 28,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Wasserturm": {
+    "x": 268,
+    "y": 252,
+    "width": 28,
+    "height": 48,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Sprungschanze": {
+    "x": 128,
     "y": 184,
     "width": 36,
     "height": 36,
     "pixelRatio": 2,
     "visible": true
   },
-  "Stollenmundloch": {
-    "x": 260,
-    "y": 220,
-    "width": 36,
-    "height": 64,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Wasserspiegelhoehe": {
-    "x": 260,
-    "y": 284,
-    "width": 36,
-    "height": 28,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Wasserrad": {
-    "x": 260,
-    "y": 312,
-    "width": 36,
-    "height": 40,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Denkmal": {
-    "x": 364,
-    "y": 240,
-    "width": 24,
-    "height": 48,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Windrad": {
-    "x": 296,
-    "y": 0,
-    "width": 36,
-    "height": 88,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Bildstock": {
-    "x": 364,
-    "y": 100,
-    "width": 28,
-    "height": 64,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Grabhuegel": {
-    "x": 296,
-    "y": 88,
-    "width": 36,
+  "Anleger": {
+    "x": 84,
+    "y": 144,
+    "width": 40,
     "height": 36,
     "pixelRatio": 2,
     "visible": true
   },
-  "Grenzstein": {
-    "x": 364,
-    "y": 288,
-    "width": 24,
-    "height": 52,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Felsen": {
-    "x": 220,
-    "y": 160,
-    "width": 40,
-    "height": 40,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Hoehleneingang": {
-    "x": 296,
-    "y": 124,
-    "width": 36,
-    "height": 64,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Campingplatz": {
-    "x": 132,
-    "y": 88,
-    "width": 44,
-    "height": 44,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Kraftwerk": {
-    "x": 84,
-    "y": 0,
-    "width": 48,
-    "height": 48,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Kraftwerk_Wasser": {
-    "x": 220,
-    "y": 200,
-    "width": 40,
-    "height": 48,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Umspannwerk": {
-    "x": 132,
-    "y": 132,
-    "width": 44,
-    "height": 44,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Laubbaum": {
-    "x": 364,
-    "y": 164,
-    "width": 28,
-    "height": 76,
-    "pixelRatio": 2,
-    "visible": true
-  },
-  "Nadelbaum": {
-    "x": 296,
-    "y": 188,
+  "Antenne": {
+    "x": 128,
+    "y": 220,
     "width": 36,
     "height": 84,
     "pixelRatio": 2,
     "visible": true
   },
-  "Bahnhof": {
-    "x": 132,
-    "y": 176,
+  "Bake": {
+    "x": 324,
+    "y": 252,
+    "width": 20,
+    "height": 52,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Brunnen": {
+    "x": 268,
+    "y": 300,
+    "width": 28,
+    "height": 28,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Freileitungsmast": {
+    "x": 164,
+    "y": 312,
+    "width": 16,
+    "height": 16,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Funkturm": {
+    "x": 84,
+    "y": 180,
+    "width": 40,
+    "height": 72,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Funkmast": {
+    "x": 164,
+    "y": 0,
+    "width": 36,
+    "height": 80,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Kellereingang": {
+    "x": 296,
+    "y": 0,
+    "width": 28,
+    "height": 56,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Kilometerstein": {
+    "x": 324,
+    "y": 0,
+    "width": 24,
+    "height": 36,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Leuchtfeuer": {
+    "x": 236,
+    "y": 80,
+    "width": 32,
+    "height": 84,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Leuchtturm": {
+    "x": 164,
+    "y": 80,
+    "width": 36,
+    "height": 72,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Radioteleskop": {
+    "x": 84,
+    "y": 0,
     "width": 44,
-    "height": 44,
+    "height": 76,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Schachtoeffnung": {
+    "x": 296,
+    "y": 56,
+    "width": 28,
+    "height": 20,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Stollenmundloch": {
+    "x": 236,
+    "y": 164,
+    "width": 32,
+    "height": 52,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Denkmal": {
+    "x": 324,
+    "y": 36,
+    "width": 24,
+    "height": 64,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Windrad": {
+    "x": 164,
+    "y": 152,
+    "width": 36,
+    "height": 84,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Wasserrad": {
+    "x": 236,
+    "y": 216,
+    "width": 32,
+    "height": 32,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Bildstock": {
+    "x": 296,
+    "y": 76,
+    "width": 28,
+    "height": 60,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Grabhuegel": {
+    "x": 236,
+    "y": 248,
+    "width": 32,
+    "height": 32,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Grenzstein": {
+    "x": 324,
+    "y": 100,
+    "width": 24,
+    "height": 56,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Wasserfall": {
+    "x": 164,
+    "y": 236,
+    "width": 36,
+    "height": 36,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Pegel": {
+    "x": 296,
+    "y": 136,
+    "width": 28,
+    "height": 36,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Felsen": {
+    "x": 164,
+    "y": 272,
+    "width": 36,
+    "height": 40,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Hoehleneingang": {
+    "x": 236,
+    "y": 280,
+    "width": 32,
+    "height": 52,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Wasserspiegelhoehe": {
+    "x": 324,
+    "y": 304,
+    "width": 20,
+    "height": 20,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Campingplatz": {
+    "x": 200,
+    "y": 0,
+    "width": 36,
+    "height": 36,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Kraftwerk": {
+    "x": 84,
+    "y": 252,
+    "width": 40,
+    "height": 40,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Kraftwerk_Wasser": {
+    "x": 200,
+    "y": 36,
+    "width": 36,
+    "height": 40,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Umspannwerk": {
+    "x": 200,
+    "y": 76,
+    "width": 36,
+    "height": 36,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Laubbaum": {
+    "x": 324,
+    "y": 156,
+    "width": 24,
+    "height": 72,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Nadelbaum": {
+    "x": 296,
+    "y": 172,
+    "width": 28,
+    "height": 76,
     "pixelRatio": 2,
     "visible": true
   },
   "Flughafen": {
-    "x": 132,
-    "y": 220,
-    "width": 44,
-    "height": 44,
+    "x": 200,
+    "y": 112,
+    "width": 36,
+    "height": 36,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "Bahnhof": {
+    "x": 200,
+    "y": 148,
+    "width": 36,
+    "height": 36,
     "pixelRatio": 2,
     "visible": true
   },
   "Hubschrauber": {
-    "x": 132,
-    "y": 264,
-    "width": 44,
-    "height": 44,
+    "x": 200,
+    "y": 184,
+    "width": 36,
+    "height": 36,
     "pixelRatio": 2,
     "visible": true
   },
   "Parkplatz": {
-    "x": 132,
-    "y": 308,
-    "width": 44,
-    "height": 44,
+    "x": 200,
+    "y": 220,
+    "width": 36,
+    "height": 36,
     "pixelRatio": 2,
     "visible": true
   },
   "Segelflugplatz": {
-    "x": 176,
-    "y": 0,
-    "width": 44,
-    "height": 44,
+    "x": 200,
+    "y": 256,
+    "width": 36,
+    "height": 36,
     "pixelRatio": 2,
     "visible": true
   },
   "Haltepunkt": {
-    "x": 364,
-    "y": 340,
-    "width": 24,
-    "height": 24,
+    "x": 296,
+    "y": 248,
+    "width": 28,
+    "height": 28,
     "pixelRatio": 2,
     "visible": true
   },
   "S_Bahn": {
-    "x": 176,
-    "y": 44,
-    "width": 44,
-    "height": 44,
+    "x": 84,
+    "y": 292,
+    "width": 40,
+    "height": 40,
     "pixelRatio": 2,
     "visible": true
   },
   "Strassenbahnhaltestelle": {
-    "x": 296,
-    "y": 304,
+    "x": 324,
+    "y": 228,
     "width": 24,
     "height": 24,
     "pixelRatio": 2,
     "visible": true
   },
   "U_Bahn": {
-    "x": 176,
-    "y": 88,
-    "width": 44,
-    "height": 44,
+    "x": 200,
+    "y": 292,
+    "width": 36,
+    "height": 36,
     "pixelRatio": 2,
     "visible": true
   },
-        "oneway_line": {
-            "x": 0,
-            "y": 364,
-            "width": 161,
-            "height": 16,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "cliff": {
-            "x": 0,
-            "y": 380,
-            "width": 72,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "broadleaved_forest_area": {
-            "x": 161,
-            "y": 364,
-            "width": 64,
-            "height": 64,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "telescope": {
-            "x": 225,
-            "y": 364,
-            "width": 46,
-            "height": 64,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "scrub_area": {
-            "x": 271,
-            "y": 364,
-            "width": 64,
-            "height": 64,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "scree_area": {
-            "x": 0,
-            "y": 428,
-            "width": 64,
-            "height": 64,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "ranger_station": {
-            "x": 64,
-            "y": 428,
-            "width": 63,
-            "height": 64,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "mixed_forest_area": {
-            "x": 127,
-            "y": 428,
-            "width": 64,
-            "height": 64,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "needleleaved_forest_area": {
-            "x": 191,
-            "y": 428,
-            "width": 64,
-            "height": 64,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "observatory": {
-            "x": 255,
-            "y": 428,
-            "width": 26,
-            "height": 64,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "heath_area": {
-            "x": 281,
-            "y": 428,
-            "width": 64,
-            "height": 64,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "gully_line": {
-            "x": 335,
-            "y": 364,
-            "width": 25,
-            "height": 64,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "bare_rock_area": {
-            "x": 0,
-            "y": 492,
-            "width": 64,
-            "height": 64,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "fort": {
-            "x": 64,
-            "y": 492,
-            "width": 60,
-            "height": 64,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "orchard_area": {
-            "x": 124,
-            "y": 492,
-            "width": 64,
-            "height": 64,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "dolmen": {
-            "x": 72,
-            "y": 380,
-            "width": 64,
-            "height": 36,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "lighthouse": {
-            "x": 188,
-            "y": 492,
-            "width": 52,
-            "height": 63,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "dyke_line": {
-            "x": 240,
-            "y": 492,
-            "width": 30,
-            "height": 63,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "palace": {
-            "x": 270,
-            "y": 492,
-            "width": 36,
-            "height": 63,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "synagogue": {
-            "x": 306,
-            "y": 492,
-            "width": 34,
-            "height": 63,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "place_of_worship_muslim": {
-            "x": 340,
-            "y": 492,
-            "width": 39,
-            "height": 63,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "place_of_worship_jewish": {
-            "x": 345,
-            "y": 428,
-            "width": 36,
-            "height": 62,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "wayside_shrine": {
-            "x": 0,
-            "y": 556,
-            "width": 34,
-            "height": 62,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "embankment_line": {
-            "x": 34,
-            "y": 556,
-            "width": 30,
-            "height": 62,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "bare_rock": {
-            "x": 64,
-            "y": 556,
-            "width": 60,
-            "height": 50,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "place_of_worship_christian": {
-            "x": 360,
-            "y": 364,
-            "width": 31,
-            "height": 60,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "synagogue_ruins": {
-            "x": 124,
-            "y": 556,
-            "width": 49,
-            "height": 59,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "wildlife_hide": {
-            "x": 173,
-            "y": 556,
-            "width": 59,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "palace_ruins": {
-            "x": 232,
-            "y": 555,
-            "width": 59,
-            "height": 59,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "mosque": {
-            "x": 291,
-            "y": 555,
-            "width": 31,
-            "height": 58,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "cross": {
-            "x": 322,
-            "y": 555,
-            "width": 44,
-            "height": 58,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "communications_tower": {
-            "x": 0,
-            "y": 618,
-            "width": 31,
-            "height": 58,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "observation_tower": {
-            "x": 31,
-            "y": 618,
-            "width": 37,
-            "height": 57,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "castle": {
-            "x": 68,
-            "y": 615,
-            "width": 33,
-            "height": 57,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "aqueduct_line": {
-            "x": 101,
-            "y": 615,
-            "width": 36,
-            "height": 57,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "tomb": {
-            "x": 137,
-            "y": 615,
-            "width": 48,
-            "height": 57,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "monastery": {
-            "x": 185,
-            "y": 614,
-            "width": 31,
-            "height": 57,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "beacon": {
-            "x": 216,
-            "y": 614,
-            "width": 47,
-            "height": 57,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "tower": {
-            "x": 263,
-            "y": 614,
-            "width": 31,
-            "height": 57,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "church": {
-            "x": 294,
-            "y": 613,
-            "width": 31,
-            "height": 57,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "windmill": {
-            "x": 325,
-            "y": 613,
-            "width": 31,
-            "height": 57,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "mosque_ruins": {
-            "x": 0,
-            "y": 676,
-            "width": 45,
-            "height": 56,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "vineyard": {
-            "x": 45,
-            "y": 675,
-            "width": 42,
-            "height": 54,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "monument": {
-            "x": 87,
-            "y": 672,
-            "width": 38,
-            "height": 53,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "castle_ruins": {
-            "x": 125,
-            "y": 672,
-            "width": 53,
-            "height": 53,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "tree": {
-            "x": 178,
-            "y": 672,
-            "width": 37,
-            "height": 53,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "chapel": {
-            "x": 215,
-            "y": 671,
-            "width": 43,
-            "height": 52,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "rock": {
-            "x": 258,
-            "y": 671,
-            "width": 52,
-            "height": 43,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "monastery_ruins": {
-            "x": 310,
-            "y": 670,
-            "width": 47,
-            "height": 52,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "cliff_line": {
-            "x": 258,
-            "y": 714,
-            "width": 52,
-            "height": 30,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "church_ruins": {
-            "x": 0,
-            "y": 744,
-            "width": 47,
-            "height": 52,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "shelter": {
-            "x": 47,
-            "y": 744,
-            "width": 50,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "picnic_shelter": {
-            "x": 97,
-            "y": 744,
-            "width": 50,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "wilderness_hut": {
-            "x": 147,
-            "y": 744,
-            "width": 50,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "moor": {
-            "x": 197,
-            "y": 725,
-            "width": 48,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "aqueduct": {
-            "x": 197,
-            "y": 773,
-            "width": 48,
-            "height": 33,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "drinking_water": {
-            "x": 357,
-            "y": 613,
-            "width": 33,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "cemetery": {
-            "x": 136,
-            "y": 380,
-            "width": 24,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "cemetery_area": {
-            "x": 245,
-            "y": 744,
-            "width": 48,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "needleleaved_tree": {
-            "x": 366,
-            "y": 555,
-            "width": 16,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "artwork": {
-            "x": 293,
-            "y": 744,
-            "width": 41,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "firepit": {
-            "x": 334,
-            "y": 722,
-            "width": 45,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "office": {
-            "x": 0,
-            "y": 806,
-            "width": 48,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "chapel_ruins": {
-            "x": 48,
-            "y": 806,
-            "width": 43,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "forest_area": {
-            "x": 91,
-            "y": 806,
-            "width": 43,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "bench": {
-            "x": 87,
-            "y": 725,
-            "width": 48,
-            "height": 18,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "fountain": {
-            "x": 134,
-            "y": 806,
-            "width": 48,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "waterfall": {
-            "x": 357,
-            "y": 661,
-            "width": 31,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "gallows": {
-            "x": 182,
-            "y": 806,
-            "width": 22,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "picnic_site": {
-            "x": 334,
-            "y": 770,
-            "width": 48,
-            "height": 35,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "place_of_worship": {
-            "x": 204,
-            "y": 806,
-            "width": 45,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "geyser": {
-            "x": 249,
-            "y": 805,
-            "width": 40,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "guidepost": {
-            "x": 289,
-            "y": 792,
-            "width": 44,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "board": {
-            "x": 333,
-            "y": 805,
-            "width": 23,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "pub": {
-            "x": 289,
-            "y": 840,
-            "width": 40,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "quarry": {
-            "x": 0,
-            "y": 854,
-            "width": 48,
-            "height": 42,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "heath": {
-            "x": 48,
-            "y": 854,
-            "width": 48,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "boundary_stone": {
-            "x": 96,
-            "y": 854,
-            "width": 48,
-            "height": 44,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "restaurant": {
-            "x": 144,
-            "y": 854,
-            "width": 43,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "historic_stone": {
-            "x": 249,
-            "y": 853,
-            "width": 40,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "ruins": {
-            "x": 187,
-            "y": 854,
-            "width": 48,
-            "height": 33,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "temple": {
-            "x": 329,
-            "y": 853,
-            "width": 48,
-            "height": 45,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "broadleaved_tree": {
-            "x": 356,
-            "y": 805,
-            "width": 26,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "memorial": {
-            "x": 289,
-            "y": 888,
-            "width": 39,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "watermill": {
-            "x": 0,
-            "y": 896,
-            "width": 46,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "mine": {
-            "x": 96,
-            "y": 898,
-            "width": 48,
-            "height": 45,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "cafe": {
-            "x": 46,
-            "y": 902,
-            "width": 48,
-            "height": 40,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "stone": {
-            "x": 187,
-            "y": 887,
-            "width": 48,
-            "height": 28,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "toilets": {
-            "x": 144,
-            "y": 915,
-            "width": 48,
-            "height": 42,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "archaeological_site": {
-            "x": 235,
-            "y": 901,
-            "width": 48,
-            "height": 45,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "battlefield": {
-            "x": 328,
-            "y": 898,
-            "width": 48,
-            "height": 38,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "cave_entrance": {
-            "x": 0,
-            "y": 957,
-            "width": 48,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "map": {
-            "x": 48,
-            "y": 957,
-            "width": 23,
-            "height": 48,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "swimming": {
-            "x": 71,
-            "y": 957,
-            "width": 46,
-            "height": 34,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "ridge_line": {
-            "x": 117,
-            "y": 957,
-            "width": 45,
-            "height": 43,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "alpine_hut": {
-            "x": 162,
-            "y": 957,
-            "width": 45,
-            "height": 43,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "parking": {
-            "x": 207,
-            "y": 946,
-            "width": 44,
-            "height": 44,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "viewpoint": {
-            "x": 251,
-            "y": 946,
-            "width": 42,
-            "height": 38,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "city_gate": {
-            "x": 293,
-            "y": 936,
-            "width": 41,
-            "height": 37,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "tumulus": {
-            "x": 334,
-            "y": 936,
-            "width": 40,
-            "height": 40,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "spring": {
-            "x": 0,
-            "y": 1005,
-            "width": 24,
-            "height": 40,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "moor_area": {
-            "x": 293,
-            "y": 973,
-            "width": 40,
-            "height": 40,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "quarry_area": {
-            "x": 24,
-            "y": 1005,
-            "width": 40,
-            "height": 40,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "rune_stone": {
-            "x": 64,
-            "y": 1005,
-            "width": 33,
-            "height": 39,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "milestone": {
-            "x": 97,
-            "y": 1000,
-            "width": 33,
-            "height": 39,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "wayside_cross": {
-            "x": 130,
-            "y": 1000,
-            "width": 28,
-            "height": 39,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "stolperstein": {
-            "x": 251,
-            "y": 984,
-            "width": 37,
-            "height": 37,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "emergency_access_point": {
-            "x": 207,
-            "y": 990,
-            "width": 36,
-            "height": 36,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "via_ferrata_line": {
-            "x": 158,
-            "y": 1000,
-            "width": 34,
-            "height": 34,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "climbing": {
-            "x": 333,
-            "y": 976,
-            "width": 34,
-            "height": 34,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "ford": {
-            "x": 192,
-            "y": 915,
-            "width": 33,
-            "height": 29,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "vineyard_area": {
-            "x": 381,
-            "y": 424,
-            "width": 11,
-            "height": 24,
-            "pixelRatio": 2,
-            "visible": true
-        },
-        "survey_point": {
-            "x": 376,
-            "y": 898,
-            "width": 16,
-            "height": 16,
-            "pixelRatio": 2,
-            "visible": true
-		}
+  "Felsen_Muster": {
+    "x": 0,
+    "y": 160,
+    "width": 48,
+    "height": 48,
+    "pixelRatio": 2,
+    "visible": true
+  },
+  "oneway_line": {
+    "x": 0,
+    "y": 332,
+    "width": 161,
+    "height": 16,
+    "pixelRatio": 2
+  },
+  "cliff": {
+    "x": 348,
+    "y": 0,
+    "width": 72,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "dolmen": {
+    "x": 348,
+    "y": 48,
+    "width": 64,
+    "height": 36,
+    "pixelRatio": 2
+  },
+  "bare_rock_area": {
+    "x": 348,
+    "y": 84,
+    "width": 64,
+    "height": 64,
+    "pixelRatio": 2
+  },
+  "scrub_area": {
+    "x": 348,
+    "y": 148,
+    "width": 64,
+    "height": 64,
+    "pixelRatio": 2
+  },
+  "scree_area": {
+    "x": 348,
+    "y": 212,
+    "width": 64,
+    "height": 64,
+    "pixelRatio": 2
+  },
+  "ranger_station": {
+    "x": 348,
+    "y": 276,
+    "width": 63,
+    "height": 64,
+    "pixelRatio": 2
+  },
+  "fort": {
+    "x": 0,
+    "y": 348,
+    "width": 60,
+    "height": 64,
+    "pixelRatio": 2
+  },
+  "gully_line": {
+    "x": 60,
+    "y": 348,
+    "width": 25,
+    "height": 64,
+    "pixelRatio": 2
+  },
+  "broadleaved_forest_area": {
+    "x": 85,
+    "y": 348,
+    "width": 64,
+    "height": 64,
+    "pixelRatio": 2
+  },
+  "heath_area": {
+    "x": 149,
+    "y": 348,
+    "width": 64,
+    "height": 64,
+    "pixelRatio": 2
+  },
+  "mixed_forest_area": {
+    "x": 213,
+    "y": 340,
+    "width": 64,
+    "height": 64,
+    "pixelRatio": 2
+  },
+  "needleleaved_forest_area": {
+    "x": 277,
+    "y": 332,
+    "width": 64,
+    "height": 64,
+    "pixelRatio": 2
+  },
+  "telescope": {
+    "x": 341,
+    "y": 340,
+    "width": 46,
+    "height": 64,
+    "pixelRatio": 2
+  },
+  "observatory": {
+    "x": 387,
+    "y": 340,
+    "width": 26,
+    "height": 64,
+    "pixelRatio": 2
+  },
+  "orchard_area": {
+    "x": 277,
+    "y": 396,
+    "width": 64,
+    "height": 64,
+    "pixelRatio": 2
+  },
+  "synagogue": {
+    "x": 0,
+    "y": 412,
+    "width": 34,
+    "height": 63,
+    "pixelRatio": 2
+  },
+  "lighthouse": {
+    "x": 34,
+    "y": 412,
+    "width": 52,
+    "height": 63,
+    "pixelRatio": 2
+  },
+  "dyke_line": {
+    "x": 86,
+    "y": 412,
+    "width": 30,
+    "height": 63,
+    "pixelRatio": 2
+  },
+  "palace": {
+    "x": 116,
+    "y": 412,
+    "width": 36,
+    "height": 63,
+    "pixelRatio": 2
+  },
+  "place_of_worship_muslim": {
+    "x": 152,
+    "y": 412,
+    "width": 39,
+    "height": 63,
+    "pixelRatio": 2
+  },
+  "place_of_worship_jewish": {
+    "x": 191,
+    "y": 412,
+    "width": 36,
+    "height": 62,
+    "pixelRatio": 2
+  },
+  "wayside_shrine": {
+    "x": 341,
+    "y": 404,
+    "width": 34,
+    "height": 62,
+    "pixelRatio": 2
+  },
+  "embankment_line": {
+    "x": 227,
+    "y": 404,
+    "width": 30,
+    "height": 62,
+    "pixelRatio": 2
+  },
+  "bare_rock": {
+    "x": 420,
+    "y": 0,
+    "width": 60,
+    "height": 50,
+    "pixelRatio": 2
+  },
+  "place_of_worship_christian": {
+    "x": 411,
+    "y": 276,
+    "width": 31,
+    "height": 60,
+    "pixelRatio": 2
+  },
+  "wildlife_hide": {
+    "x": 413,
+    "y": 336,
+    "width": 59,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "palace_ruins": {
+    "x": 413,
+    "y": 384,
+    "width": 59,
+    "height": 59,
+    "pixelRatio": 2
+  },
+  "synagogue_ruins": {
+    "x": 412,
+    "y": 50,
+    "width": 49,
+    "height": 59,
+    "pixelRatio": 2
+  },
+  "cross": {
+    "x": 412,
+    "y": 109,
+    "width": 44,
+    "height": 58,
+    "pixelRatio": 2
+  },
+  "communications_tower": {
+    "x": 375,
+    "y": 404,
+    "width": 31,
+    "height": 58,
+    "pixelRatio": 2
+  },
+  "mosque": {
+    "x": 442,
+    "y": 167,
+    "width": 31,
+    "height": 58,
+    "pixelRatio": 2
+  },
+  "tomb": {
+    "x": 0,
+    "y": 475,
+    "width": 48,
+    "height": 57,
+    "pixelRatio": 2
+  },
+  "tower": {
+    "x": 48,
+    "y": 475,
+    "width": 31,
+    "height": 57,
+    "pixelRatio": 2
+  },
+  "castle": {
+    "x": 79,
+    "y": 475,
+    "width": 33,
+    "height": 57,
+    "pixelRatio": 2
+  },
+  "church": {
+    "x": 112,
+    "y": 475,
+    "width": 31,
+    "height": 57,
+    "pixelRatio": 2
+  },
+  "windmill": {
+    "x": 143,
+    "y": 475,
+    "width": 31,
+    "height": 57,
+    "pixelRatio": 2
+  },
+  "aqueduct_line": {
+    "x": 174,
+    "y": 475,
+    "width": 36,
+    "height": 57,
+    "pixelRatio": 2
+  },
+  "beacon": {
+    "x": 210,
+    "y": 474,
+    "width": 47,
+    "height": 57,
+    "pixelRatio": 2
+  },
+  "monastery": {
+    "x": 442,
+    "y": 225,
+    "width": 31,
+    "height": 57,
+    "pixelRatio": 2
+  },
+  "observation_tower": {
+    "x": 257,
+    "y": 466,
+    "width": 37,
+    "height": 57,
+    "pixelRatio": 2
+  },
+  "mosque_ruins": {
+    "x": 294,
+    "y": 460,
+    "width": 45,
+    "height": 56,
+    "pixelRatio": 2
+  },
+  "vineyard": {
+    "x": 339,
+    "y": 466,
+    "width": 42,
+    "height": 54,
+    "pixelRatio": 2
+  },
+  "monument": {
+    "x": 442,
+    "y": 282,
+    "width": 38,
+    "height": 53,
+    "pixelRatio": 2
+  },
+  "castle_ruins": {
+    "x": 381,
+    "y": 462,
+    "width": 53,
+    "height": 53,
+    "pixelRatio": 2
+  },
+  "tree": {
+    "x": 434,
+    "y": 443,
+    "width": 37,
+    "height": 53,
+    "pixelRatio": 2
+  },
+  "church_ruins": {
+    "x": 0,
+    "y": 532,
+    "width": 47,
+    "height": 52,
+    "pixelRatio": 2
+  },
+  "monastery_ruins": {
+    "x": 47,
+    "y": 532,
+    "width": 47,
+    "height": 52,
+    "pixelRatio": 2
+  },
+  "cliff_area_line": {
+    "x": 94,
+    "y": 532,
+    "width": 52,
+    "height": 30,
+    "pixelRatio": 2
+  },
+  "chapel": {
+    "x": 146,
+    "y": 532,
+    "width": 43,
+    "height": 52,
+    "pixelRatio": 2
+  },
+  "rock": {
+    "x": 189,
+    "y": 532,
+    "width": 52,
+    "height": 43,
+    "pixelRatio": 2
+  },
+  "cliff_line": {
+    "x": 241,
+    "y": 531,
+    "width": 52,
+    "height": 30,
+    "pixelRatio": 2
+  },
+  "shelter": {
+    "x": 293,
+    "y": 523,
+    "width": 50,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "wilderness_hut": {
+    "x": 343,
+    "y": 520,
+    "width": 50,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "picnic_shelter": {
+    "x": 393,
+    "y": 515,
+    "width": 50,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "cafe": {
+    "x": 0,
+    "y": 584,
+    "width": 48,
+    "height": 40,
+    "pixelRatio": 2
+  },
+  "watermill": {
+    "x": 189,
+    "y": 575,
+    "width": 46,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "aqueduct": {
+    "x": 94,
+    "y": 562,
+    "width": 48,
+    "height": 33,
+    "pixelRatio": 2
+  },
+  "gallows": {
+    "x": 456,
+    "y": 109,
+    "width": 22,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "fountain": {
+    "x": 235,
+    "y": 575,
+    "width": 48,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "cemetery_area": {
+    "x": 283,
+    "y": 571,
+    "width": 48,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "needleleaved_tree": {
+    "x": 461,
+    "y": 50,
+    "width": 16,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "drinking_water": {
+    "x": 443,
+    "y": 496,
+    "width": 33,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "forest_area": {
+    "x": 331,
+    "y": 571,
+    "width": 43,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "cemetery": {
+    "x": 412,
+    "y": 167,
+    "width": 24,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "office": {
+    "x": 374,
+    "y": 568,
+    "width": 48,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "cave_entrance": {
+    "x": 422,
+    "y": 563,
+    "width": 48,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "guidepost": {
+    "x": 0,
+    "y": 624,
+    "width": 44,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "chapel_ruins": {
+    "x": 44,
+    "y": 624,
+    "width": 43,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "map": {
+    "x": 87,
+    "y": 623,
+    "width": 23,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "memorial": {
+    "x": 110,
+    "y": 623,
+    "width": 39,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "waterfall": {
+    "x": 149,
+    "y": 623,
+    "width": 31,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "picnic_site": {
+    "x": 422,
+    "y": 611,
+    "width": 48,
+    "height": 35,
+    "pixelRatio": 2
+  },
+  "place_of_worship": {
+    "x": 180,
+    "y": 623,
+    "width": 45,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "broadleaved_tree": {
+    "x": 225,
+    "y": 623,
+    "width": 26,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "boundary_stone": {
+    "x": 374,
+    "y": 616,
+    "width": 48,
+    "height": 44,
+    "pixelRatio": 2
+  },
+  "board": {
+    "x": 251,
+    "y": 623,
+    "width": 23,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "pub": {
+    "x": 274,
+    "y": 623,
+    "width": 40,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "quarry": {
+    "x": 314,
+    "y": 619,
+    "width": 48,
+    "height": 42,
+    "pixelRatio": 2
+  },
+  "firepit": {
+    "x": 0,
+    "y": 672,
+    "width": 45,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "bench": {
+    "x": 48,
+    "y": 595,
+    "width": 48,
+    "height": 18,
+    "pixelRatio": 2
+  },
+  "restaurant": {
+    "x": 45,
+    "y": 672,
+    "width": 43,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "mine": {
+    "x": 88,
+    "y": 671,
+    "width": 48,
+    "height": 45,
+    "pixelRatio": 2
+  },
+  "ruins": {
+    "x": 422,
+    "y": 646,
+    "width": 48,
+    "height": 33,
+    "pixelRatio": 2
+  },
+  "heath": {
+    "x": 136,
+    "y": 671,
+    "width": 48,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "geyser": {
+    "x": 184,
+    "y": 671,
+    "width": 40,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "battlefield": {
+    "x": 224,
+    "y": 679,
+    "width": 48,
+    "height": 38,
+    "pixelRatio": 2
+  },
+  "historic_stone": {
+    "x": 272,
+    "y": 671,
+    "width": 40,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "toilets": {
+    "x": 312,
+    "y": 679,
+    "width": 48,
+    "height": 42,
+    "pixelRatio": 2
+  },
+  "temple": {
+    "x": 362,
+    "y": 660,
+    "width": 48,
+    "height": 45,
+    "pixelRatio": 2
+  },
+  "stone": {
+    "x": 96,
+    "y": 595,
+    "width": 48,
+    "height": 28,
+    "pixelRatio": 2
+  },
+  "artwork": {
+    "x": 0,
+    "y": 721,
+    "width": 41,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "swamp": {
+    "x": 88,
+    "y": 716,
+    "width": 48,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "archaeological_site": {
+    "x": 224,
+    "y": 717,
+    "width": 48,
+    "height": 45,
+    "pixelRatio": 2
+  },
+  "ice_cream": {
+    "x": 272,
+    "y": 721,
+    "width": 35,
+    "height": 48,
+    "pixelRatio": 2
+  },
+  "swimming": {
+    "x": 41,
+    "y": 720,
+    "width": 46,
+    "height": 34,
+    "pixelRatio": 2
+  },
+  "alpine_hut": {
+    "x": 307,
+    "y": 721,
+    "width": 45,
+    "height": 43,
+    "pixelRatio": 2
+  },
+  "ridge_line": {
+    "x": 352,
+    "y": 721,
+    "width": 45,
+    "height": 43,
+    "pixelRatio": 2
+  },
+  "parking": {
+    "x": 136,
+    "y": 719,
+    "width": 44,
+    "height": 44,
+    "pixelRatio": 2
+  },
+  "viewpoint": {
+    "x": 144,
+    "y": 584,
+    "width": 42,
+    "height": 38,
+    "pixelRatio": 2
+  },
+  "city_gate": {
+    "x": 180,
+    "y": 719,
+    "width": 41,
+    "height": 37,
+    "pixelRatio": 2
+  },
+  "quarry_area": {
+    "x": 397,
+    "y": 705,
+    "width": 40,
+    "height": 40,
+    "pixelRatio": 2
+  },
+  "moor_area": {
+    "x": 437,
+    "y": 679,
+    "width": 40,
+    "height": 40,
+    "pixelRatio": 2
+  },
+  "tumulus": {
+    "x": 437,
+    "y": 719,
+    "width": 40,
+    "height": 40,
+    "pixelRatio": 2
+  },
+  "spring": {
+    "x": 412,
+    "y": 215,
+    "width": 24,
+    "height": 40,
+    "pixelRatio": 2
+  },
+  "hot_spring": {
+    "x": 480,
+    "y": 0,
+    "width": 24,
+    "height": 40,
+    "pixelRatio": 2
+  },
+  "milestone": {
+    "x": 471,
+    "y": 443,
+    "width": 33,
+    "height": 39,
+    "pixelRatio": 2
+  },
+  "rune_stone": {
+    "x": 470,
+    "y": 544,
+    "width": 33,
+    "height": 39,
+    "pixelRatio": 2
+  },
+  "wayside_cross": {
+    "x": 476,
+    "y": 482,
+    "width": 28,
+    "height": 39,
+    "pixelRatio": 2
+  },
+  "stolperstein": {
+    "x": 0,
+    "y": 769,
+    "width": 37,
+    "height": 37,
+    "pixelRatio": 2
+  },
+  "emergency_access_point": {
+    "x": 37,
+    "y": 769,
+    "width": 36,
+    "height": 36,
+    "pixelRatio": 2
+  },
+  "via_ferrata_line": {
+    "x": 470,
+    "y": 583,
+    "width": 34,
+    "height": 34,
+    "pixelRatio": 2
+  },
+  "climbing": {
+    "x": 470,
+    "y": 617,
+    "width": 34,
+    "height": 34,
+    "pixelRatio": 2
+  },
+  "ford": {
+    "x": 397,
+    "y": 745,
+    "width": 33,
+    "height": 29,
+    "pixelRatio": 2
+  },
+  "vineyard_area": {
+    "x": 362,
+    "y": 619,
+    "width": 11,
+    "height": 24,
+    "pixelRatio": 2
+  },
+  "noexit": {
+    "x": 257,
+    "y": 404,
+    "width": 20,
+    "height": 20,
+    "pixelRatio": 2
+  },
+  "survey_point": {
+    "x": 161,
+    "y": 332,
+    "width": 16,
+    "height": 16,
+    "pixelRatio": 2
+  }
 }

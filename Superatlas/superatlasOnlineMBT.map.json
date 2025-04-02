@@ -13,7 +13,7 @@
     "smarttiles_de": {
       "type": "vector",
       "tiles": [
-        "http://localhost:1886/mbtiles/basemap.mbtiles/{z}/{x}/{y}"
+	    "https://sgx.geodatenzentrum.de/gdz_basemapde_vektor/tiles/v2/bm_web_de_3857/{z}/{x}/{y}.pbf"
       ],
       "attribution": "&copy; 2023 basemap.de / BKG | Datenquellen: © GeoBasis-DE",
       "minzoom": 0,
@@ -31,7 +31,7 @@
     "smarttilesHL_de": {
       "type": "vector",
       "tiles": [
-        "http://localhost:1886/mbtiles/basemap_contour.mbtiles/{z}/{x}/{y}"
+		"https://sgx.geodatenzentrum.de/gdz_basemapde_vektor/tiles/v2/bm_web_hl_de_3857/{z}/{x}/{y}.pbf"
       ],
       "attribution": "&copy; 2023 basemap.de / BKG | Datenquellen: © GeoBasis-DE",
       "minzoom": 0,
