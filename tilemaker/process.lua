@@ -2,10 +2,12 @@
 
 	Superatlas OpenStreetMap data processing script for tilemaker
 	
-	Written by Hauke in 2024
+	Written by Hauke in 2024+
 	
 	Update history:
-	- V1, August 3rd: Intial public version
+	- V1, August 3rd, 2024: Intial public version
+	- V2, April 2nd, 2025: Added "noexit", reject some minor classes of protected areas, and minor bugfixes and improvements
+	- V3, May 4th, 2025: Some improvments and new "bbq_hut"
 	
 	For detailed explanations, please visit https://projects.webvoss.de
 
@@ -76,7 +78,7 @@ NameColorLightBlue = {"aqueduct", "glacier", "swamp"}
 
 ValidFinalClasses = {"access", "alpine_hut", "aqueduct", "archaeological_site", "artwork", "attraction", "bare_rock", "battlefield", "beacon", "bench", "board", "boundary_stone", "broadleaved_tree", "cafe", "castle", "cave_entrance", "cemetery", "chapel", "church", "city_gate", "cliff", "climbing", "communications_tower", "cross", "dolmen", "drinking_water", "dyke", "embankment", "emergency_access_point", "firepit", "ford", "forest", "fort", "fountain", "gallows", "geyser", "glacier", "guidepost", "gully", "handrail", "heath", "highway", "historic_stone", "hot_spring", "ice_cream", "lighthouse", "map", "memorial", "milestone", "mine", "monastery", "monument", "swamp", "mosque", "needleleaved_tree", "observation_tower", "observatory", "office", "palace", "parking", "peak", "picnic_shelter", "picnic_site", "place_of_worship", "protected_area", "pub", "quarry", "ranger_station", "restaurant", "ridge", "rock", "ruins", "rune_stone", "scree", "scrub", "shelter", "spring", "stone", "survey_point", "swimming", "synagogue", "telescope", "temple", "toilets", "tomb", "tower", "tree", "tumulus", "viewpoint", "vineyard", "water_well", "waterfall", "watermill", "wayside_cross", "wayside_shrine", "wilderness_hut", "wildlife_hide", "windmill", "zoo"} --"access", 
 
-ValidPOIs = {"alpine_hut", "aqueduct", "archaeological_site", "artwork", "attraction", "bare_rock", "battlefield", "beacon", "bench", "board", "boundary_stone", "broadleaved_tree", "cafe", "castle", "cave_entrance", "cemetery", "chapel", "church", "city_gate", "cliff", "climbing", "communications_tower", "cross", "dolmen", "drinking_water", "dyke", "embankment", "emergency_access_point", "firepit", "ford", "fort", "fountain", "gallows", "geyser", "guidepost", "gully", "historic_stone", "hot_spring", "ice_cream", "lighthouse", "map", "memorial", "milestone", "mine", "monastery", "monument", "mosque", "needleleaved_tree", "noexit", "observation_tower", "observatory", "office", "palace", "parking", "picnic_shelter", "picnic_site", "place_of_worship", "pub", "ranger_station", "restaurant", "rock", "ruins", "rune_stone", "shelter", "spring", "stone", "survey_point", "swimming", "synagogue", "telescope", "temple", "toilets", "tomb", "tower", "tree", "tumulus", "viewpoint", "vineyard", "waterfall", "watermill", "wayside_cross", "wayside_shrine", "wilderness_hut", "wildlife_hide", "windmill", "peak", "water_well"}
+ValidPOIs = {"alpine_hut", "aqueduct", "archaeological_site", "artwork", "attraction", "bare_rock", "battlefield", "bbq_hut", "beacon", "bench", "board", "boundary_stone", "broadleaved_tree", "cafe", "castle", "cave_entrance", "cemetery", "chapel", "church", "city_gate", "cliff", "climbing", "communications_tower", "cross", "dolmen", "drinking_water", "dyke", "embankment", "emergency_access_point", "firepit", "ford", "fort", "fountain", "gallows", "geyser", "guidepost", "gully", "historic_stone", "hot_spring", "ice_cream", "lighthouse", "map", "memorial", "milestone", "mine", "monastery", "monument", "mosque", "needleleaved_tree", "noexit", "observation_tower", "observatory", "office", "palace", "parking", "picnic_shelter", "picnic_site", "place_of_worship", "pub", "ranger_station", "restaurant", "rock", "ruins", "rune_stone", "shelter", "spring", "stone", "survey_point", "swimming", "synagogue", "telescope", "temple", "toilets", "tomb", "tower", "tree", "tumulus", "viewpoint", "vineyard", "waterfall", "watermill", "wayside_cross", "wayside_shrine", "wilderness_hut", "wildlife_hide", "windmill", "peak", "water_well"}
 
 PriorityPOIs = {"alpine_hut", "bare_rock", "bench", "castle", "cave_entrance", "cliff", "climbing", "cross", "dolmen", "drinking_water", "geyser", "mine", "monastery", "monument", "observation_tower", "observatory", "palace", "picnic_shelter", "picnic_site", "ranger_station", "rock", "ruins", "rune_stone", "shelter", "spring", "stone", "telescope", "temple", "toilets", "tomb",  "waterfall", "wilderness_hut", "wildlife_hide", "peak", "water_well"}
 
@@ -284,10 +286,10 @@ local function OSMtranslator(ObjectCategory, ObjectData)
 			FinalClass = "tower"
 		elseif FinalClass == "tower" then
 			SubType = Find("tower:type")
-			if SubType == "communication" then
+			if SubType == "observation" or Find("tourism") == "viewpoint" then
+				FinalClass = "observation_tower"			
+			elseif SubType == "communication" then
 				FinalClass = "communications_tower"
-			elseif SubType == "observation" or Find("tourism") == "viewpoint" then
-				FinalClass = "observation_tower"
 			end
 		elseif (FinalClass == "bird_hide" or FinalClass == "wildlife_hide") then
 			if Find("man_made") == "tower" then
@@ -296,10 +298,11 @@ local function OSMtranslator(ObjectCategory, ObjectData)
 				FinalClass = "wildlife_hide"
 			end
 		elseif FinalClass == "bbq" or FinalClass == "firepit" then
--- Noch Symbol machen für grillhütte - und: shelter mit fireplace yes dzu
---			if Find("covered") == "yes" then
---				FinalClass == 
-			FinalClass = "firepit"
+			if Find("covered") == "yes" then
+				FinalClass = "bbq_hut"
+			else
+				FinalClass = "firepit"
+			end
 		elseif FinalClass == "bench" or FinalClass == "lounger" then
 			if Find("tourism") == "picnic_site" then
 				FinalClass = "Duplicate"
@@ -391,8 +394,15 @@ local function OSMtranslator(ObjectCategory, ObjectData)
 			end
 		elseif FinalClass == "access_point" then
 			FinalClass = "emergency_access_point"
-		elseif FinalClass == "viewpoint" and (Find("man_made") == "tower" or Find("tower:type") == "observation") then
-			FinalClass = "Duplicate"
+		elseif FinalClass == "viewpoint" then
+			if Find("tower:type") == "observation" then
+				-- There are observation towers that have no "tower" tag (man_made or building), but viewpoint and tower:type...
+				if Find("man_made") == "tower" then
+					FinalClass = "Duplicate"
+				else
+					FinalClass = "observation_tower"
+				end
+			end
 		elseif FinalClass == "wood" or FinalClass == "trees" or FinalClass == "orchard" then
 			FinalClass = "forest"
 		elseif FinalClass == "surface_mining" then
@@ -417,7 +427,11 @@ local function OSMtranslator(ObjectCategory, ObjectData)
 		elseif FinalClass == "ditch" then
 			FinalClass = "gully"
 		elseif FinalClass == "nature_reserve" or FinalClass == "national_park" or FinalClass == "protected_area" then
-			FinalClass = "protected_area"
+			if not contains({"5", "11", "12", "13", "14", "15", "16", "19", "21", "23"}, Find("protect_class")) then
+				FinalClass = "protected_area"
+			else
+				FinalClass = ""
+			end			
 			if ObjectCategory == "leisure" then
 				if contains({"nature_reserve", "national_park", "protected_area"}, Find("boundary")) then
 					FinalClass = "Duplicate"
@@ -568,33 +582,37 @@ function relation_function()
 	local FinalClass
 	local ProtectionClass
 	
+	-- Currently, only protected areas are in scope of relation "boundary"
 	if contains(ValidBoundary, Find("boundary")) then
-		FinalClass = "protected_area"
+	
+		-- Only take relevant protection areas - ignore some less important ones
+		if not contains({"5", "11", "12", "13", "14", "15", "16", "19", "21", "23"}, Find("protect_class")) then
+			FinalClass = "protected_area"
 
-		Layer("OSMfeatures", IsClosed())
-		
-		ProtectionClass = Find("protection_title")
-		ProtectionClass = string.gsub(ProtectionClass, "Naturschutzgebiet", "NSG")
-		ProtectionClass = string.gsub(ProtectionClass, "Landschaftsschutzgebiet", "LSG")
-		Name = Find(PreferredLanguageNameKey)
-		if Name == "" then
-			Name = Find("name")
-		end
-		if Name ~= "" then
-			Name = string.gsub(Name, "Naturschutzgebiet", "NSG")
-			Name = string.gsub(Name, "Landschaftsschutzgebiet", "LSG")
-			if string.find(Name, ProtectionClass) then
-				ProtectionClass = ""
+			Layer("OSMfeatures", IsClosed())
+			
+			ProtectionClass = Find("protection_title")
+			ProtectionClass = string.gsub(ProtectionClass, "Naturschutzgebiet", "NSG")
+			ProtectionClass = string.gsub(ProtectionClass, "Landschaftsschutzgebiet", "LSG")
+			Name = Find(PreferredLanguageNameKey)
+			if Name == "" then
+				Name = Find("name")
 			end
+			if Name ~= "" then
+				Name = string.gsub(Name, "Naturschutzgebiet", "NSG")
+				Name = string.gsub(Name, "Landschaftsschutzgebiet", "LSG")
+				if string.find(Name, ProtectionClass) then
+					ProtectionClass = ""
+				end
+			end
+			if ProtectionClass ~= "" then
+				Attribute("subclass", ProtectionClass)
+			end
+			
+			Attribute("class", FinalClass)
+			
+			CommonAttributes(FinalClass, true, false, Name)
 		end
-		if ProtectionClass ~= "" then
-			Attribute("subclass", ProtectionClass)
-		end
-		
-		Attribute("class", FinalClass)
-		
-		CommonAttributes(FinalClass, true, false, Name)
-
 		
 	end
 		
