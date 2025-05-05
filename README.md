@@ -1,6 +1,6 @@
 # Superatlas
 The Superatlas is a combination of the excellent maps of [basemap.de](https://basemap.de) and [OpenStreetMap (OSM) data](https://www.openstreetmap.org) to get the best of both worlds. The map is intended to be used as an offline map on a smartphone with [OruxMaps](https://www.oruxmaps.com/cs/en/).
-This repository contains all files requied to create the maps, but not the maps itself. For usage guidance and detailed explanations, please read my [blog posts](https://projects.webvoss.de/2024/08/03/next-generation-perfect-offline-hiking-maps-superatlas-goes-vector-part-i-introduction/).
+This repository contains all files requied to create and use the maps, but not the maps itself. For usage guidance and detailed explanations, please read my [blog posts](https://projects.webvoss.de/2024/08/03/next-generation-perfect-offline-hiking-maps-superatlas-goes-vector-part-i-introduction/).
 
 The process of creating these maps is:
 * Download the OSM data for the relevant region from [Geofrabrik](https://download.geofabrik.de/)
