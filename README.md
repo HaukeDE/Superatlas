@@ -11,7 +11,7 @@ This respository contains:
 * The config.json for the tilemaker process
 * The process.lua LUA script for tilemaker OSM data prcessing
 * The sprite files - please note that some icons used are published by [BKG](https://www.bkg.bund.de) under [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/) - all other icons are from public domain sources or self-made
-* The glyphs, which are based on [Google Fonts](https://fonts.google.com/)
+* The glyphs, which are based on [Google Fonts](https://fonts.google.com/) and the [Deja Vu font project](https://dejavu-fonts.github.io/)
 * The [Mapbox](https://www.mapbox.com/)/[Maplibre](https://maplibre.org/) JSON style file, which is based off and significantly extended from the basemap.de [color map](https://sgx.geodatenzentrum.de/gdz_basemapde_vektor/styles/bm_web_col.json) and [relief](https://sgx.geodatenzentrum.de/gdz_basemapde_vektor/styles/bm_web_top.json) style files, published by [BKG](https://www.bkg.bund.de) under [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/)
 
 For usage guidance and detailed explanations, please read my [blog posts](https://projects.webvoss.de/2024/08/03/next-generation-perfect-offline-hiking-maps-superatlas-goes-vector-part-i-introduction/)
