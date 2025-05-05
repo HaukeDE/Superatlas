@@ -2,4 +2,4 @@ Sprite data contains data with the following licensing:
 * © GeoBasis-DE / [BKG](https://www.bkg.bund.de) (2025) [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) - see also [BKG Nutzungsbedingungen](https://sgx.geodatenzentrum.de/web_public/gdz/lizenz/deu/Nutzungsbedingungen_basemapde.pdf)
 * © GeoBasis-DE / [BKG](https://www.bkg.bund.de) (2025) [dl-de/by-2-0](https://www.govdata.de/dl-de/by-2-0)
 * Map icons [CC-0](https://creativecommons.org/publicdomain/zero/1.0/) from [SJJB Management](https://www.sjjb.co.uk/mapicons/)
-* My own creations, which I declare public domain [CC-0](https://creativecommons.org/publicdomain/zero/1.0/)
+* My own creations, which I declare public domain [CC-0](https://creativecommons.org/publicdomain/zero/1.0/). If you use or distribute my work, or distrubute follow-up work based on mine, I kindly ask you to give me credit by mentioning my name and/or link to my blog with URL https://projects.webvoss.de - or specifically to the Superatlas blog post with URL https://projects.webvoss.de/2024/08/03/next-generation-perfect-offline-hiking-maps-superatlas-goes-vector-part-i-introduction/
