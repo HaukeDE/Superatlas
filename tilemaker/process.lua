@@ -8,11 +8,11 @@
 	- V1, August 3rd, 2024: Intial public version
 	- V2, April 2nd, 2025: Added "noexit", reject some minor classes of protected areas, and minor bugfixes and improvements
 	- V3, May 4th, 2025: Some improvments and new "bbq_hut"
+	- V4, May 13th, 2025: Added "leisure=track" as new feature "sporttrack"
 	
 	For detailed explanations, please visit https://projects.webvoss.de
 
 ]]--
-
 
 
 PreferredLanguageNameKey = "name:de"
@@ -25,14 +25,14 @@ ConfigIncludeDebugInfo = false
 
 node_keys = {"building", "historic", "amenity", "megalith_type", "waterway", "emergency", "highway", "leisure", "ford", "man_made", "natural", "noexit", "landuse", "shelter_type", "sport", "summit:cross", "accomodation", "information", "tourism", "viewpoint", "geological"}
 
-way_keys = {"access", "abandoned:highway", "disused:highway", "bridge", "waterway", "highway", "embankment", "handrail", "barrier", "building", "amenity", "historic", "megalith_type", "leisure", "ford", "man_made", "natural", "landuse", "landcover", "shelter_type", "sport", "accomodation", "information", "tourism", "viewpoint", "boundary"} 
+way_keys = {"access", "abandoned:highway", "disused:highway", "bridge", "waterway", "highway", "embankment", "handrail", "barrier", "building", "amenity", "historic", "megalith_type", "leisure", "ford", "man_made", "natural", "landuse", "landcover", "shelter_type", "sport", "accomodation", "information", "tourism", "viewpoint", "boundary", "leisure"} 
 
 ValidAmenities = {"bench", "bbq", "firepit", "drinking_water", "water_point", "fountain", "ranger_station", "shelter", "table", "place_of_worship", "lounger", "monastery", "parking", "toilets", "grave_yard", "restaurant", "fast_food", "pub", "biergarten", "cafe", "ice_cream", "public_bath"}
  
 
 ValidHistoric = {"mine", "archaeological_site", "battlefield", "boundary_stone", "city_gate", "fort", "milestone", "memorial", "monument", "ogham_stone", "ruins", "rune_stone", "tomb", "wayside_cross", "wayside_shrine", "tree_shrine", "stone", "monastery", "castle", "gallows", "pillory", "aqueduct", "stone", "church", "cathedral", "chapel", "wayside_chapel", "mosque", "synagogue", "temple", "shrine", "cross", "high_cross", "round_tower", "stećak"}
 ValidManMade = {"adit", "mineshaft", "beacon", "cross", "lighthouse", "communications_tower", "tower", "watermill", "water_well", "water_tap", "windmill", "obelisk", "observatory", "telescope", "survey_point", "embankment", "dyke"}
-ValidLeisure = {"bird_hide", "wildlife_hide", "firepit", "picnic_table", "swimming_area", "swimming_pool", "water_park", "nature_reserve"}
+ValidLeisure = {"bird_hide", "wildlife_hide", "firepit", "picnic_table", "swimming_area", "swimming_pool", "track", "water_park", "nature_reserve"}
 ValidInformation = {"guidepost", "map", "board", "office"}
 ValidBoundary = {"protected_area", "national_park", "nature_reserve"}
 ValidGeological = {"outcrop", "glacial_erratic", "hoodoo"}
@@ -51,13 +51,13 @@ ValidBarrier = {"handrail", "railing", "split_rail", "wood", "roundpole", "pole"
 
 ValidAccess = {"no", "private", "permit", "customers"}
 
-ValidHighways = {"path", "track", "service", "road", "footway", "bridleway", "steps", "via_ferrata", "emergency_access_point", "ladder", "rest_area", "services", "trailhead", "disused", "yes"}
+ValidHighways = {"path", "track", "service", "road", "footway", "bridleway", "steps", "via_ferrata", "emergency_access_point", "ladder", "rest_area", "services", "trailhead", "disused", "yes", "sporttrack"}
 
 InvalidParkings = {"street_side", "carports", "garage_boxes", "sheds", "lane", "on_kerb", "half_on_kerb", "shoulder"}
 
 NonAreaFeatures = {"highway", "abandoned:highway", "disused:highway", "handrail", "barrier", "ford", "cliff"}
 
-NonPOIfeatures = {"highway", "abandoned:highway", "disused:highway", "access", "handrail", "forest", "quarry", "vineyard", "cemetery", "cliff", "ridge", "scree", "glacier", "heath", "swamp", "scrub", "bare_rock", "embankment", "gully", "dyke", "aqueduct", "zoo", "protected_area"}
+NonPOIfeatures = {"highway", "abandoned:highway", "disused:highway", "access", "handrail", "forest", "quarry", "vineyard", "cemetery", "cliff", "ridge", "scree", "glacier", "heath", "swamp", "scrub", "bare_rock", "embankment", "gully", "dyke", "aqueduct", "zoo", "protected_area", "sporttrack"}
 
 TopLevelFeatures = {"ford", "viewpoint", "noexit"}
 
@@ -76,7 +76,7 @@ NameColorBlue = {"spring", "water_well", "waterfall", "hot_spring"}
 NameColorLightBlue = {"aqueduct", "glacier", "swamp"}
 
 
-ValidFinalClasses = {"access", "alpine_hut", "aqueduct", "archaeological_site", "artwork", "attraction", "bare_rock", "battlefield", "beacon", "bench", "board", "boundary_stone", "broadleaved_tree", "cafe", "castle", "cave_entrance", "cemetery", "chapel", "church", "city_gate", "cliff", "climbing", "communications_tower", "cross", "dolmen", "drinking_water", "dyke", "embankment", "emergency_access_point", "firepit", "ford", "forest", "fort", "fountain", "gallows", "geyser", "glacier", "guidepost", "gully", "handrail", "heath", "highway", "historic_stone", "hot_spring", "ice_cream", "lighthouse", "map", "memorial", "milestone", "mine", "monastery", "monument", "swamp", "mosque", "needleleaved_tree", "observation_tower", "observatory", "office", "palace", "parking", "peak", "picnic_shelter", "picnic_site", "place_of_worship", "protected_area", "pub", "quarry", "ranger_station", "restaurant", "ridge", "rock", "ruins", "rune_stone", "scree", "scrub", "shelter", "spring", "stone", "survey_point", "swimming", "synagogue", "telescope", "temple", "toilets", "tomb", "tower", "tree", "tumulus", "viewpoint", "vineyard", "water_well", "waterfall", "watermill", "wayside_cross", "wayside_shrine", "wilderness_hut", "wildlife_hide", "windmill", "zoo"} --"access", 
+ValidFinalClasses = {"access", "alpine_hut", "aqueduct", "archaeological_site", "artwork", "attraction", "bare_rock", "battlefield", "bbq_hut", "beacon", "bench", "board", "boundary_stone", "broadleaved_tree", "cafe", "castle", "cave_entrance", "cemetery", "chapel", "church", "city_gate", "cliff", "climbing", "communications_tower", "cross", "dolmen", "drinking_water", "dyke", "embankment", "emergency_access_point", "firepit", "ford", "forest", "fort", "fountain", "gallows", "geyser", "glacier", "guidepost", "gully", "handrail", "heath", "highway", "historic_stone", "hot_spring", "ice_cream", "lighthouse", "map", "memorial", "milestone", "mine", "monastery", "monument", "swamp", "mosque", "needleleaved_tree", "observation_tower", "observatory", "office", "palace", "parking", "peak", "picnic_shelter", "picnic_site", "place_of_worship", "protected_area", "pub", "quarry", "ranger_station", "restaurant", "ridge", "rock", "ruins", "rune_stone", "scree", "scrub", "shelter", "sporttrack", "spring", "stone", "survey_point", "swimming", "synagogue", "telescope", "temple", "toilets", "tomb", "tower", "tree", "tumulus", "viewpoint", "vineyard", "water_well", "waterfall", "watermill", "wayside_cross", "wayside_shrine", "wilderness_hut", "wildlife_hide", "windmill", "zoo"} --"access", 
 
 ValidPOIs = {"alpine_hut", "aqueduct", "archaeological_site", "artwork", "attraction", "bare_rock", "battlefield", "bbq_hut", "beacon", "bench", "board", "boundary_stone", "broadleaved_tree", "cafe", "castle", "cave_entrance", "cemetery", "chapel", "church", "city_gate", "cliff", "climbing", "communications_tower", "cross", "dolmen", "drinking_water", "dyke", "embankment", "emergency_access_point", "firepit", "ford", "fort", "fountain", "gallows", "geyser", "guidepost", "gully", "historic_stone", "hot_spring", "ice_cream", "lighthouse", "map", "memorial", "milestone", "mine", "monastery", "monument", "mosque", "needleleaved_tree", "noexit", "observation_tower", "observatory", "office", "palace", "parking", "picnic_shelter", "picnic_site", "place_of_worship", "pub", "ranger_station", "restaurant", "rock", "ruins", "rune_stone", "shelter", "spring", "stone", "survey_point", "swimming", "synagogue", "telescope", "temple", "toilets", "tomb", "tower", "tree", "tumulus", "viewpoint", "vineyard", "waterfall", "watermill", "wayside_cross", "wayside_shrine", "wilderness_hut", "wildlife_hide", "windmill", "peak", "water_well"}
 
@@ -163,7 +163,11 @@ local function OSMtranslator(ObjectCategory, ObjectData)
 			FinalClass = "noexit"
 		end
 	elseif (ObjectCategory == "leisure") then
-		if contains(ValidLeisure, ObjectData) then FinalClass = ObjectData end
+		if (ObjectData == "track") then
+			FinalClass = "sporttrack"
+		elseif contains(ValidLeisure, ObjectData) then 
+			FinalClass = ObjectData 
+		end
 	elseif (ObjectCategory == "boundary") then
 		if contains(ValidBoundary, ObjectData) then FinalClass = ObjectData end
 	elseif (ObjectCategory == "geological") then
@@ -773,10 +777,14 @@ function way_function()
 				DoOutstandingAttribute = true
 				
 				
-				if Feature == "highway" or Feature == "abandoned:highway" or Feature == "disused:highway" or Feature == "bridge" then
-					if (((Feature == "abandoned:highway" or Feature == "disused:highway") and not Holds("highway")) or Feature == "highway" or Feature == "bridge") and contains(ValidHighways, FinalClass) then
+				if Feature == "highway" or Feature == "abandoned:highway" or Feature == "disused:highway" or Feature == "bridge" or Feature == "leisure" then
+					if (((Feature == "abandoned:highway" or Feature == "disused:highway") and not Holds("highway")) or Feature == "highway" or Feature == "bridge" or Feature == "leisure") and contains(ValidHighways, FinalClass) then
 						
 						Layer("OSMways", false)
+						
+						if (FinalClass == "sporttrack") then
+							Attribute("subclass", Find("sport"))
+						end
 						
 						ViaFerrataScale = Find("via_ferrata_scale")
 						SACscale = Find("sac_scale")
@@ -822,7 +830,7 @@ function way_function()
 								end
 							end
 						end 
-							
+						
 						Attribute("class", FinalClass)
 						
 						if DifficultyColor ~= "" then

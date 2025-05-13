@@ -16696,13 +16696,59 @@
       }
     },
     {
+      "id": "OSM_sporttrack",
+      "type": "line",
+      "source": "OSM-tiles",
+      "source-layer": "OSMways",
+      "filter": [
+        "all",
+        ["==", "class", "sporttrack"],
+        ["!=", "subclass", "abandoned"],
+        ["!in", "trail_visibility", "horrible", "no"]
+      ],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-dasharray": [3, 3],
+        "line-color": "rgba(255, 125, 189, 1)",
+        "line-width": {"stops": [[10, 0.5], [17, 1.75]]}
+      }
+    },
+    {
+      "id": "OSM_way_sporttrackName",
+      "type": "symbol",
+      "source": "OSM-tiles",
+      "source-layer": "OSMways",
+      "minzoom": 14,
+      "filter": ["all", ["==", "class", "sporttrack"], ["has", "subclass"]],
+      "layout": {
+        "visibility": "visible",
+        "text-field": "{subclass}",
+        "text-font": ["Roboto Bold"],
+        "text-size": 11,
+        "text-allow-overlap": true,
+        "text-ignore-placement": false,
+        "icon-allow-overlap": true,
+        "text-anchor": "center",
+        "symbol-placement": "line",
+        "symbol-spacing": 200,
+        "icon-ignore-placement": false,
+        "text-offset": [0, 0.6]
+      },
+      "paint": {
+        "text-color": "rgba(255, 125, 189, 1)",
+        "text-halo-color": "rgba(255, 255, 255, 1)",
+        "text-halo-blur": 0.25,
+        "text-halo-width": 0.25
+      }
+    },
+    {
       "id": "OSM_ways",
       "type": "line",
       "source": "OSM-tiles",
       "source-layer": "OSMways",
       "filter": [
         "all",
-        ["!in", "class", "path", "via_ferrata", "footway"],
+        ["!in", "class", "path", "via_ferrata", "footway", "sporttrack"],
         ["!=", "subclass", "abandoned"],
         ["!in", "trail_visibility", "horrible", "no"]
       ],
