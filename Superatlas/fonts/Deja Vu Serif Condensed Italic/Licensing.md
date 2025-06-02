@@ -1,7 +1,9 @@
-DejaVu Fonts — License
+# DejaVu Fonts — License 
+(from: https://dejavu-fonts.github.io/License.html)
 
 Fonts are © Bitstream (see below). DejaVu changes are in public domain. Explanation of copyright is on Gnome page on Bitstream Vera fonts. Glyphs imported from Arev fonts are © Tavmjung Bah (see below)
-Bitstream Vera Fonts Copyright
+
+## Bitstream Vera Fonts Copyright
 
 Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is a trademark of Bitstream, Inc.
 
@@ -18,9 +20,9 @@ The Font Software may be sold as part of a larger software package but no copy o
 THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
 
 Except as contained in this notice, the names of Gnome, the Gnome Foundation, and Bitstream Inc., shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Font Software without prior written authorization from the Gnome Foundation or Bitstream Inc., respectively. For further information, contact: fonts at gnome dot org.
-Arev Fonts Copyright
 
-Original text
+
+## Arev Fonts Copyright
 
 Copyright (c) 2006 by Tavmjong Bah. All Rights Reserved.
 
