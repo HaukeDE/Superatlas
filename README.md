@@ -6,7 +6,7 @@ The process of creating these maps is:
 * Download the OSM data for the relevant region from [Geofrabrik](https://download.geofabrik.de/)
 * Use [tilemaker](https://github.com/systemed/tilemaker) to select the relevant OSM data and put them into an mbtiles database file
 * Download the basemap.de data (recommended: map data plus contour lines) into additional mbtiles files (e.g. using [QGIS](https://www.qgis.org/), or my [PBFdownloader](https://github.com/HaukeDE/PBFdownloader))
-* Put Gylphs, Sprites, style file and mbtiles into the [OruxMaps](https://www.oruxmaps.com/cs/en/) mapfiles directory and refresh data sources
+* Put Glyphs, Sprites, style file and mbtiles into the [OruxMaps](https://www.oruxmaps.com/cs/en/) mapfiles directory and refresh data sources
 
 This respository contains:
 * The config.json for the tilemaker process
