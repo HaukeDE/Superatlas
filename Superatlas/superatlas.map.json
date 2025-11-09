@@ -15464,9 +15464,9 @@
       "filter": ["all", ["==", "class", "handrail"]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "line-color": "rgba(253, 255, 0, 1)",
+        "line-color": "rgba(0, 255, 164, 1)",
         "line-opacity": 0.6,
-        "line-width": 1
+        "line-width": 3
       }
     },
     {
@@ -15478,9 +15478,10 @@
       "filter": ["all", ["in", "subclass", "handrail_right", "handrail_both"]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "line-color": "rgba(253, 255, 0, 1)",
+        "line-color": "rgba(0, 255, 164, 1)",
         "line-opacity": 1,
-        "line-offset": 5
+        "line-offset": 5,
+        "line-width": 2
       }
     },
     {
@@ -15492,9 +15493,9 @@
       "filter": ["all", ["in", "subclass", "handrail_left", "handrail_both"]],
       "layout": {"visibility": "visible"},
       "paint": {
-        "line-color": "rgba(253, 255, 0, 1)",
+        "line-color": "rgba(0, 255, 164, 1)",
         "line-opacity": 1,
-        "line-width": 1,
+        "line-width": 2,
         "line-offset": -5
       }
     },
@@ -15781,7 +15782,7 @@
       "source": "OSM-tiles",
       "source-layer": "OSMfeatures",
       "minzoom": 13,
-      "filter": ["all", ["==", "class", "moor"]],
+      "filter": ["all", ["==", "class", "swamp"]],
       "layout": {"visibility": "visible"},
       "paint": {"fill-opacity": 1, "fill-pattern": "moor_area"}
     },
@@ -16366,6 +16367,52 @@
       }
     },
     {
+      "id": "OSM_sporttrack",
+      "type": "line",
+      "source": "OSM-tiles",
+      "source-layer": "OSMways",
+      "filter": [
+        "all",
+        ["==", "class", "sporttrack"],
+        ["!=", "subclass", "abandoned"],
+        ["!in", "trail_visibility", "horrible", "no"]
+      ],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-dasharray": [3, 3],
+        "line-color": "rgba(255, 125, 189, 1)",
+        "line-width": {"stops": [[10, 0.5], [17, 1.75]]}
+      }
+    },
+    {
+      "id": "OSM_way_assited_trail_highlighter",
+      "type": "circle",
+      "source": "OSM-tiles",
+      "source-layer": "OSMways",
+      "maxzoom": 16,
+      "filter": ["all", ["==", "class", "assisted_trail"]],
+      "paint": {
+        "circle-color": "rgba(244, 255, 0, 1)",
+        "circle-radius": {"stops": [[11, 3], [12, 4]]},
+        "circle-opacity": 0.3
+      }
+    },
+    {
+      "id": "OSM_way_assisted_trail",
+      "type": "line",
+      "source": "OSM-tiles",
+      "source-layer": "OSMways",
+      "minzoom": 0,
+      "filter": ["all", ["==", "class", "assisted_trail"]],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-dasharray": [1, 0.6],
+        "line-color": "rgba(244, 255, 0, 1)",
+        "line-width": {"stops": [[10, 4], [17, 4]]},
+        "line-translate": [3, 0]
+      }
+    },
+    {
       "id": "OSM_way_via_ferrata",
       "type": "line",
       "source": "OSM-tiles",
@@ -16696,24 +16743,6 @@
       }
     },
     {
-      "id": "OSM_sporttrack",
-      "type": "line",
-      "source": "OSM-tiles",
-      "source-layer": "OSMways",
-      "filter": [
-        "all",
-        ["==", "class", "sporttrack"],
-        ["!=", "subclass", "abandoned"],
-        ["!in", "trail_visibility", "horrible", "no"]
-      ],
-      "layout": {"visibility": "visible"},
-      "paint": {
-        "line-dasharray": [3, 3],
-        "line-color": "rgba(255, 125, 189, 1)",
-        "line-width": {"stops": [[10, 0.5], [17, 1.75]]}
-      }
-    },
-    {
       "id": "OSM_way_sporttrackName",
       "type": "symbol",
       "source": "OSM-tiles",
@@ -16742,13 +16771,39 @@
       }
     },
     {
+      "id": "OSM_ways_bridleway",
+      "type": "line",
+      "source": "OSM-tiles",
+      "source-layer": "OSMways",
+      "filter": [
+        "all",
+        ["==", "class", "bridleway"],
+        ["!=", "subclass", "abandoned"],
+        ["!in", "trail_visibility", "horrible", "no"]
+      ],
+      "layout": {"visibility": "visible"},
+      "paint": {
+        "line-dasharray": [5, 1, 1, 1, 1, 1],
+        "line-color": "rgba(192, 60, 5, 1)",
+        "line-width": {"stops": [[10, 0.5], [17, 1.75]]}
+      }
+    },
+    {
       "id": "OSM_ways",
       "type": "line",
       "source": "OSM-tiles",
       "source-layer": "OSMways",
       "filter": [
         "all",
-        ["!in", "class", "path", "via_ferrata", "footway", "sporttrack"],
+        [
+          "!in",
+          "class",
+          "path",
+          "via_ferrata",
+          "footway",
+          "sporttrack",
+          "bridleway"
+        ],
         ["!=", "subclass", "abandoned"],
         ["!in", "trail_visibility", "horrible", "no"]
       ],

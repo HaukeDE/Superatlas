@@ -9,10 +9,12 @@
 	- V2, April 2nd, 2025: Added "noexit", reject some minor classes of protected areas, and minor bugfixes and improvements
 	- V3, May 4th, 2025: Some improvments and new "bbq_hut"
 	- V4, May 13th, 2025: Added "leisure=track" as new feature "sporttrack"
+	- V5, Nov 1st, 2025: Added "assisted-trail" as separate feature (was combined with via_ferrata before). Plus bugfixes.
 	
 	For detailed explanations, please visit https://projects.webvoss.de
 
 ]]--
+
 
 
 PreferredLanguageNameKey = "name:de"
@@ -30,7 +32,7 @@ way_keys = {"access", "abandoned:highway", "disused:highway", "bridge", "waterwa
 ValidAmenities = {"bench", "bbq", "firepit", "drinking_water", "water_point", "fountain", "ranger_station", "shelter", "table", "place_of_worship", "lounger", "monastery", "parking", "toilets", "grave_yard", "restaurant", "fast_food", "pub", "biergarten", "cafe", "ice_cream", "public_bath"}
  
 
-ValidHistoric = {"mine", "archaeological_site", "battlefield", "boundary_stone", "city_gate", "fort", "milestone", "memorial", "monument", "ogham_stone", "ruins", "rune_stone", "tomb", "wayside_cross", "wayside_shrine", "tree_shrine", "stone", "monastery", "castle", "gallows", "pillory", "aqueduct", "stone", "church", "cathedral", "chapel", "wayside_chapel", "mosque", "synagogue", "temple", "shrine", "cross", "high_cross", "round_tower", "stećak"}
+ValidHistoric = {"mine", "archaeological_site", "battlefield", "boundary_stone", "city_gate", "fort", "milestone", "memorial", "monument", "ogham_stone", "ruins", "rune_stone", "tomb", "wayside_cross", "wayside_shrine", "tree_shrine", "stone", "monastery", "castle", "gallows", "pillory", "aqueduct", "stone", "church", "cathedral", "chapel", "wayside_chapel", "mosque", "synagogue", "temple", "shrine", "cross", "high_cross", "market_cross", "round_tower", "stećak"}
 ValidManMade = {"adit", "mineshaft", "beacon", "cross", "lighthouse", "communications_tower", "tower", "watermill", "water_well", "water_tap", "windmill", "obelisk", "observatory", "telescope", "survey_point", "embankment", "dyke"}
 ValidLeisure = {"bird_hide", "wildlife_hide", "firepit", "picnic_table", "swimming_area", "swimming_pool", "track", "water_park", "nature_reserve"}
 ValidInformation = {"guidepost", "map", "board", "office"}
@@ -76,7 +78,7 @@ NameColorBlue = {"spring", "water_well", "waterfall", "hot_spring"}
 NameColorLightBlue = {"aqueduct", "glacier", "swamp"}
 
 
-ValidFinalClasses = {"access", "alpine_hut", "aqueduct", "archaeological_site", "artwork", "attraction", "bare_rock", "battlefield", "bbq_hut", "beacon", "bench", "board", "boundary_stone", "broadleaved_tree", "cafe", "castle", "cave_entrance", "cemetery", "chapel", "church", "city_gate", "cliff", "climbing", "communications_tower", "cross", "dolmen", "drinking_water", "dyke", "embankment", "emergency_access_point", "firepit", "ford", "forest", "fort", "fountain", "gallows", "geyser", "glacier", "guidepost", "gully", "handrail", "heath", "highway", "historic_stone", "hot_spring", "ice_cream", "lighthouse", "map", "memorial", "milestone", "mine", "monastery", "monument", "swamp", "mosque", "needleleaved_tree", "observation_tower", "observatory", "office", "palace", "parking", "peak", "picnic_shelter", "picnic_site", "place_of_worship", "protected_area", "pub", "quarry", "ranger_station", "restaurant", "ridge", "rock", "ruins", "rune_stone", "scree", "scrub", "shelter", "sporttrack", "spring", "stone", "survey_point", "swimming", "synagogue", "telescope", "temple", "toilets", "tomb", "tower", "tree", "tumulus", "viewpoint", "vineyard", "water_well", "waterfall", "watermill", "wayside_cross", "wayside_shrine", "wilderness_hut", "wildlife_hide", "windmill", "zoo"} --"access", 
+ValidFinalClasses = {"access", "alpine_hut", "aqueduct", "archaeological_site", "artwork", "assisted_trail", "attraction", "bare_rock", "battlefield", "bbq_hut", "beacon", "bench", "board", "boundary_stone", "bridleway", "broadleaved_tree", "cafe", "castle", "cave_entrance", "cemetery", "chapel", "church", "city_gate", "cliff", "climbing", "communications_tower", "cross", "dolmen", "drinking_water", "dyke", "embankment", "emergency_access_point", "firepit", "ford", "forest", "fort", "fountain", "gallows", "geyser", "glacier", "guidepost", "gully", "handrail", "heath", "highway", "historic_stone", "hot_spring", "ice_cream", "lighthouse", "map", "memorial", "milestone", "mine", "monastery", "monument", "swamp", "mosque", "needleleaved_tree", "observation_tower", "observatory", "office", "palace", "parking", "peak", "picnic_shelter", "picnic_site", "place_of_worship", "protected_area", "pub", "quarry", "ranger_station", "restaurant", "ridge", "rock", "ruins", "rune_stone", "scree", "scrub", "shelter", "sporttrack", "spring", "stone", "survey_point", "swimming", "synagogue", "telescope", "temple", "toilets", "tomb", "tower", "tree", "tumulus", "viewpoint", "vineyard", "water_well", "waterfall", "watermill", "wayside_cross", "wayside_shrine", "wilderness_hut", "wildlife_hide", "windmill", "zoo"} --"access", 
 
 ValidPOIs = {"alpine_hut", "aqueduct", "archaeological_site", "artwork", "attraction", "bare_rock", "battlefield", "bbq_hut", "beacon", "bench", "board", "boundary_stone", "broadleaved_tree", "cafe", "castle", "cave_entrance", "cemetery", "chapel", "church", "city_gate", "cliff", "climbing", "communications_tower", "cross", "dolmen", "drinking_water", "dyke", "embankment", "emergency_access_point", "firepit", "ford", "fort", "fountain", "gallows", "geyser", "guidepost", "gully", "historic_stone", "hot_spring", "ice_cream", "lighthouse", "map", "memorial", "milestone", "mine", "monastery", "monument", "mosque", "needleleaved_tree", "noexit", "observation_tower", "observatory", "office", "palace", "parking", "picnic_shelter", "picnic_site", "place_of_worship", "pub", "ranger_station", "restaurant", "rock", "ruins", "rune_stone", "shelter", "spring", "stone", "survey_point", "swimming", "synagogue", "telescope", "temple", "toilets", "tomb", "tower", "tree", "tumulus", "viewpoint", "vineyard", "waterfall", "watermill", "wayside_cross", "wayside_shrine", "wilderness_hut", "wildlife_hide", "windmill", "peak", "water_well"}
 
@@ -270,13 +272,14 @@ local function OSMtranslator(ObjectCategory, ObjectData)
 			FinalClass = "Rejected Duplicate"
 		end
 	elseif (ObjectCategory == "summit:cross") then
-		if ObjectData == "yes" then 
+		if ObjectData == "summit:cross" then 
 			FinalClass = "cross" 
 		else
 			FinalClass = "Processed"
 		end
 	elseif (ObjectCategory == "handrail") then
-		if ObjectData ~= "no" and Find("highway") ~= "steps" then FinalClass = "handrail" end
+--		if ObjectData ~= "no" and Find("highway") ~= "steps" then FinalClass = "handrail" end
+		if ObjectData ~= "no" and not Holds("highway") then FinalClass = "handrail" end
 	else
 		FinalClass = ObjectData
 	end
@@ -284,7 +287,7 @@ local function OSMtranslator(ObjectCategory, ObjectData)
 	if FinalClass ~= "" then
 		if FinalClass == "adit" or FinalClass == "mineshaft" then 
 			FinalClass = "mine" 
-		elseif FinalClass == "summit:cross" or FinalClass == "high_cross" then
+		elseif FinalClass == "summit:cross" or FinalClass == "high_cross" or FinalClass == "market_cross" then
 			FinalClass = "cross"
 		elseif FinalClass == "round_tower" then
 			FinalClass = "tower"
@@ -413,7 +416,7 @@ local function OSMtranslator(ObjectCategory, ObjectData)
 			FinalClass = "quarry"
 		elseif FinalClass == "wetland" or FinalClass == "mud" or FinalClass == "moor" then
 			-- moor is taken by Outdooractive style
-			FinalClass = "swap"		
+			FinalClass = "swamp"		
 		elseif FinalClass == "water_tap" or FinalClass == "water_point" then
 			FinalClass = "drinking_water"
 		elseif FinalClass == "grave_yard" then
@@ -791,8 +794,10 @@ function way_function()
 						
 						if FinalClass == "unclassified" then 
 							FinalClass = "track" 
-						elseif Find("assisted_trail") ~= "" or Find("safety_rope") ~= "" or Find("ladder") ~= "" or Find("rungs") ~= "" or ViaFerrataScale ~= "" then
+						elseif ViaFerrataScale ~= "" then
 							FinalClass = "via_ferrata"
+						elseif Find("assisted_trail") ~= "" or Find("safety_rope") ~= "" or Find("ladder") ~= "" or Find("rungs") ~= "" or FinalClass == "ladder" then
+							FinalClass = "assisted_trail"
 						end
 						
 						Difficulty = ""
@@ -847,19 +852,18 @@ function way_function()
 						if contains(ValidAccess, Access) then Attribute("access", Access) end
 						OneWay = Find("oneway")
 						if OneWay ~= "" and OneWay ~= "no" then Attribute("oneway", "yes") end
-						if FinalClass == "steps" then
-							Handrail = Find("handrail")
-							if Handrail == "yes" then
-								HandrailSide = "handrail_both"
-								if Holds("handrail:left") and not Holds("handrail:right") then
-									HandrailSide = "handrail_left"
-								elseif Holds("handrail:right") and not Holds("handrail:left") then
-									HandrailSide = "handrail_left"
-								end
-								Attribute("subclass", HandrailSide)
-							end
-						elseif Find("surface") == "wood" or Find("bridge") == "boardwalk" then
+						if Find("surface") == "wood" or Find("bridge") == "boardwalk" then
 							Attribute("subclass", "boardwalk")
+						end
+						Handrail = Find("handrail")
+						if Handrail == "yes" then
+							HandrailSide = "handrail_both"
+							if (Find("handrail:left") == "yes") and not (Find("handrail:right") == "yes") then
+								HandrailSide = "handrail_left"
+							elseif (Find("handrail:right") == "yes") and not (Find("handrail:left") == "yes") then
+								HandrailSide = "handrail_right"
+							end
+							Attribute("subclass", HandrailSide)
 						end
 
 						if contains(NamedFeatures, FinalClass) then
