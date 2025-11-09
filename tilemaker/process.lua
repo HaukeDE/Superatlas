@@ -9,7 +9,7 @@
 	- V2, April 2nd, 2025: Added "noexit", reject some minor classes of protected areas, and minor bugfixes and improvements
 	- V3, May 4th, 2025: Some improvments and new "bbq_hut"
 	- V4, May 13th, 2025: Added "leisure=track" as new feature "sporttrack"
-	- V5, Nov 1st, 2025: Added "assisted-trail" as separate feature (was combined with via_ferrata before). Plus bugfixes.
+	- V5, Nov 9th, 2025: Added "assisted-trail" as separate feature (was combined with via_ferrata before). Plus bugfixes.
 	
 	For detailed explanations, please visit https://projects.webvoss.de
 
@@ -402,9 +402,10 @@ local function OSMtranslator(ObjectCategory, ObjectData)
 		elseif FinalClass == "access_point" then
 			FinalClass = "emergency_access_point"
 		elseif FinalClass == "viewpoint" then
-			if Find("tower:type") == "observation" then
+			DuplicateCheck = (Find("man_made") == "tower" or Find("leisure") == "bird_hide" or Find("leisure") == "wildlife_hide")
+			if Find("tower:type") == "observation" or DuplicateCheck then
 				-- There are observation towers that have no "tower" tag (man_made or building), but viewpoint and tower:type...
-				if Find("man_made") == "tower" then
+				if DuplicateCheck then
 					FinalClass = "Duplicate"
 				else
 					FinalClass = "observation_tower"
