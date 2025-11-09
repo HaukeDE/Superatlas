@@ -27,7 +27,7 @@ ConfigIncludeDebugInfo = false
 
 node_keys = {"building", "historic", "amenity", "megalith_type", "waterway", "emergency", "highway", "leisure", "ford", "man_made", "natural", "noexit", "landuse", "shelter_type", "sport", "summit:cross", "accomodation", "information", "tourism", "viewpoint", "geological"}
 
-way_keys = {"access", "abandoned:highway", "disused:highway", "bridge", "waterway", "highway", "embankment", "handrail", "barrier", "building", "amenity", "historic", "megalith_type", "leisure", "ford", "man_made", "natural", "landuse", "landcover", "shelter_type", "sport", "accomodation", "information", "tourism", "viewpoint", "boundary", "leisure"} 
+way_keys = {"access", "abandoned:highway", "disused:highway", "bridge", "waterway", "highway", "embankment", "handrail", "barrier", "building", "amenity", "historic", "megalith_type", "leisure", "ford", "man_made", "natural", "landuse", "landcover", "shelter_type", "sport", "accomodation", "information", "tourism", "viewpoint", "boundary"} 
 
 ValidAmenities = {"bench", "bbq", "firepit", "drinking_water", "water_point", "fountain", "ranger_station", "shelter", "table", "place_of_worship", "lounger", "monastery", "parking", "toilets", "grave_yard", "restaurant", "fast_food", "pub", "biergarten", "cafe", "ice_cream", "public_bath"}
  
@@ -781,7 +781,7 @@ function way_function()
 				DoOutstandingAttribute = true
 				
 				
-				if Feature == "highway" or Feature == "abandoned:highway" or Feature == "disused:highway" or Feature == "bridge" or Feature == "leisure" then
+				if Feature == "highway" or Feature == "abandoned:highway" or Feature == "disused:highway" or Feature == "bridge" or FinalClass == "sporttrack" then
 					if (((Feature == "abandoned:highway" or Feature == "disused:highway") and not Holds("highway")) or Feature == "highway" or Feature == "bridge" or Feature == "leisure") and contains(ValidHighways, FinalClass) then
 						
 						Layer("OSMways", false)
